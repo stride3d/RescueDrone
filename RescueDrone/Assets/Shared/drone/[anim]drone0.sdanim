@@ -1,0 +1,17 @@
+!Animation
+Id: a7dcc511-a8eb-4fdd-bae0-0773ea8e8bcd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Drone/[anim]drone0.FBX
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 75b1c383-18a2-45a0-80a1-f32e60bd7988:drone/[model]drone Model Skeleton
+RootMotion: false
+PreviewModel: 3ca0f1c8-9b41-45ce-913f-a03f1ce76a46:drone/[model]drone Model
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:30:00.0000000

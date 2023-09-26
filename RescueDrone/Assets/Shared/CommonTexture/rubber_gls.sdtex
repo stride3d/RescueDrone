@@ -1,0 +1,7 @@
+!Texture
+Id: 2ecdc29d-2e25-42a4-960b-68f4c0c6fefe
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/rubber_gls.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

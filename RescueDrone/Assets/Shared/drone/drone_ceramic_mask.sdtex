@@ -1,0 +1,8 @@
+!Texture
+Id: 60ed697a-eb31-4bba-a618-542263168b50
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/drone/drone_ceramic_mask.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

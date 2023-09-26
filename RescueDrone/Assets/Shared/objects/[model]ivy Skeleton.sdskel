@@ -1,0 +1,13 @@
+!Skeleton
+Id: 6ceac8c2-3b36-4740-8a16-002062a3a035
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]ivy.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    837b6793d7926d4496922fb812003630: {Name: RootNode, Depth: 0}
+    bf38f38798519049bdacebd847221869: {Name: ivy_tree0, Depth: 1}
+    61fdefc907b7764a868a32d2729c02cc: {Name: ivy_leaf0, Depth: 1}
+    0349730ce088a34eb7f158bde75f6694: {Name: "オブジェクト076", Depth: 1}
+~SourceHashes:
+    66d32238154aaeeb9335d40e50465c68~../../../RawAssets/sci-fi/Chair/[model]ivy.FBX: 69d9313e11109c46813d1b42d8aecd18

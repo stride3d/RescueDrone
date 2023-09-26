@@ -1,0 +1,8 @@
+!Texture
+Id: 6b10bc6e-2b0b-42c5-bfc6-d48245597b6a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/drone/lens_ems.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

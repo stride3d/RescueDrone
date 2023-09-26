@@ -1,0 +1,14 @@
+!Skeleton
+Id: bb4f7547-c0df-43b2-b50f-4c70c9edd85c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CAM/CAM01.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    2b83a4a0d5dde6216f7c2fe8b32bbfe2: {Name: RootNode, Depth: 0}
+    75719b88d9c7465866f02921e5802372: {Name: Cam_target, Depth: 1}
+    4a7c6041ea55becd149b531a348929e4: {Name: node_CAM, Depth: 1}
+    587e11911b565ab0146741c5643400a4: {Name: node_CAM_shake, Depth: 2}
+    c02d1ecccdce7706e917822d98ff7290: {Name: Camera001, Depth: 3}
+~SourceHashes:
+    93d79f43b22001b6c98bc00b826dedf0~../../../RawAssets/sci-fi/CAM/CAM01.FBX: 1eb94d22b745c88bf87d3db6b2b69c46

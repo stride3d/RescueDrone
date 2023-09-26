@@ -1,0 +1,8 @@
+!Texture
+Id: 63989723-5203-4586-b6ed-34cfb8f33bd6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/gum0_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

@@ -1,0 +1,7 @@
+!Texture
+Id: a70beebc-d89a-4cee-8c51-3bb78b40bfc8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/glass0_ao.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

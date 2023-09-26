@@ -1,0 +1,118 @@
+!PrefabAsset
+Id: 78a15c13-aade-4550-a56f-36f84bdecb30
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 95a58b6b-9ac8-4877-8779-11edf39669f4
+    Parts:
+        -   Entity:
+                Id: 4c49aef3-4523-494f-911f-d18c83fd22cc
+                Name: GeoSphere
+                Components:
+                    a67be769630bfc99dd73fb497c6267f0: !TransformComponent
+                        Id: 891bf939-9a91-48a9-927a-e52197668dc1
+                        Position: {X: -0.252996832, Y: 0.560526669, Z: 1.98718727}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3343757, Y: 0.3343757, Z: 0.3343757}
+                        Children: {}
+                    1645abfcf1de9eed7892b4bc0e25a027: !ModelComponent
+                        Id: f720c087-7e4d-4806-9e2f-4740868fe579
+                        Model: 837af0fa-89a8-40b3-ae74-66c8df0d849f:GeoSphere
+                        Materials: {}
+        -   Entity:
+                Id: 59f9554e-a90c-4ee3-9ece-67d0c9877434
+                Name: Cone
+                Components:
+                    70ff1be96c2d3af3d4a10244f5a69710: !TransformComponent
+                        Id: 0690c2fa-eb62-463b-b475-7d328218fd0d
+                        Position: {X: -0.254372984, Y: -0.0216867924, Z: 1.98718727}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9daad109a42b062e58817adc70a9a63f: !ModelComponent
+                        Id: 0a08accb-54a6-4b52-aa35-c445119f15b2
+                        Model: 20899e05-dc7c-4172-b55e-10c3d921609b:Cone
+                        Materials: {}
+        -   Entity:
+                Id: 8b4d9d05-fed7-4a98-ab2f-989ff63c6e28
+                Name: Cylinder (2)
+                Components:
+                    c15d622b7dc243aed4763c47234b11cb: !TransformComponent
+                        Id: 9386b70d-b86a-492a-a35c-b48093fd6ded
+                        Position: {X: -0.253177553, Y: 0.559219956, Z: 1.02373767}
+                        Rotation: {X: -0.712030351, Y: 0.0, Z: 0.0, W: 0.7021487}
+                        Scale: {X: 0.325229555, Y: 1.91743863, Z: 0.325229555}
+                        Children: {}
+                    05b916bb8db0f5dd0535e01f0d2bdc2d: !ModelComponent
+                        Id: 94c7a67c-eb74-4394-b949-8a474d906e99
+                        Model: 67d5ce3d-66d4-4318-805d-49076bacb514:Cylinder
+                        Materials: {}
+        -   Entity:
+                Id: 95a58b6b-9ac8-4877-8779-11edf39669f4
+                Name: root
+                Components:
+                    269b684e52615805378ff3183d4e002e: !TransformComponent
+                        Id: ab2f3c7b-cee2-4b35-8012-7cd793bc27d7
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3490181, Y: 0.3490181, Z: 0.3490181}
+                        Children:
+                            b14202cb5f811ce5a90f817fcc49e142: ref!! e9bc5861-c605-4edb-997e-7de60422eb88
+                            1029361e8474eb407da62b01ea94a85d: ref!! 0690c2fa-eb62-463b-b475-7d328218fd0d
+                            fab09dedef6cd66e07b64eba5d97bcef: ref!! 303817a2-9bc3-4e36-aeae-afe86ffa9626
+                            377e856141d44a817d9ee8a5eabc535a: ref!! 891bf939-9a91-48a9-927a-e52197668dc1
+                            dddf818f7a1efd37616e91c8426346ba: ref!! 9386b70d-b86a-492a-a35c-b48093fd6ded
+                            8f0fe34e25dd901b17ea94a331c7bf48: ref!! 5140ce58-1f4f-49b8-9b2d-4d28377e5783
+        -   Entity:
+                Id: d58dc3e8-8ed2-4951-bcb3-a407530538f5
+                Name: Cylinder
+                Components:
+                    055a074de5346ba952fbe1608e6a4c58: !TransformComponent
+                        Id: 303817a2-9bc3-4e36-aeae-afe86ffa9626
+                        Position: {X: -0.253286272, Y: 0.311805964, Z: 1.98718727}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3328337, Y: 0.464450628, Z: 0.3328337}
+                        Children: {}
+                    9c3decda2f6c3c501b5d2ce8e2a55a40: !ModelComponent
+                        Id: bcf84591-a0ef-4065-afae-f878b8b22bd3
+                        Model: 67d5ce3d-66d4-4318-805d-49076bacb514:Cylinder
+                        Materials: {}
+        -   Entity:
+                Id: d5e4466e-5a07-4715-b01e-886bee386829
+                Name: Spot light
+                Components:
+                    db792a458ab10085fbb8f526ff411484: !TransformComponent
+                        Id: 5140ce58-1f4f-49b8-9b2d-4d28377e5783
+                        Position: {X: -0.2479802, Y: -0.6006613, Z: 1.99555337}
+                        Rotation: {X: -0.5945088, Y: 0.04751757, Z: 0.08963739, W: 0.797663033}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cce3d18438974250799f66ef36562d88: !LightComponent
+                        Id: a7291d2a-35a0-446c-8414-a5c9cfcfb4c4
+                        Type: !LightSpot
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Range: 6.0
+                            AngleInner: 26.0
+                            AngleOuter: 80.0
+                            UVScale: {X: 1.0, Y: 1.0}
+                            UVOffset: {X: 0.0, Y: 0.0}
+                            Shadow:
+                                BiasParameters:
+                                    DepthBias: 0.001
+                        Intensity: 2.0
+        -   Entity:
+                Id: fd956f94-1297-4e0b-b74f-43664bf99c8d
+                Name: Sphere
+                Components:
+                    3c5d3f59df45ca6305ea6b3310bf1ee5: !TransformComponent
+                        Id: e9bc5861-c605-4edb-997e-7de60422eb88
+                        Position: {X: -0.244576842, Y: -0.5189742, Z: 1.98911989}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.641716242, Y: 0.641716242, Z: 0.641716242}
+                        Children: {}
+                    a4dacd0a98b88ec46459b2158ad5e122: !ModelComponent
+                        Id: d8b33f4c-cbd4-4709-9f15-0a8e8c216a83
+                        Model: 26fa4a6b-5c7a-48ae-8c5b-36f9fd38e445:Sphere
+                        Materials: {}

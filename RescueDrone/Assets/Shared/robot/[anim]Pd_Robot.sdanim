@@ -1,0 +1,17 @@
+!Animation
+Id: 5e0930de-3c0f-4d7f-983c-5aa098ab6dbc
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Robot/[anim]Pd_Robot.FBX
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 54b22dfd-fb25-4a7e-ae9c-78d3d3aa009a:robot/Pd_Robot Model Skeleton
+RootMotion: false
+PreviewModel: 3d68707b-e859-4eb4-94a3-41eff1ec8acf:robot/Pd_Robot Model
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:30:00.0000000

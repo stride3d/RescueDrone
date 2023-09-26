@@ -1,0 +1,7 @@
+!Texture
+Id: c36b87d1-8166-4df8-ad94-d3911b2f34ca
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/pattern_metal_cav.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

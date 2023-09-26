@@ -1,0 +1,8 @@
+!Texture
+Id: 3cdbc7cd-755e-4d13-ab51-c56629ba381a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/ConcreteWall1_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

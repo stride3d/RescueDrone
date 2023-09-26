@@ -1,0 +1,7 @@
+!Texture
+Id: a2929e43-5fed-4a09-8974-d9520cc47c9f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/fabric1_cav.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

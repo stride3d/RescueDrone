@@ -1,0 +1,6 @@
+!Texture
+Id: 03715945-ddb0-4ca0-ba3e-533750e4f600
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/leather1_nml.png
+Type: !NormalMapTextureType {}

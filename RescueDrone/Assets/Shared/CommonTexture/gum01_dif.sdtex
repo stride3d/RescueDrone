@@ -1,0 +1,8 @@
+!Texture
+Id: cb0504b0-547f-40f1-8aef-6fd902ddf957
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/gum01_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

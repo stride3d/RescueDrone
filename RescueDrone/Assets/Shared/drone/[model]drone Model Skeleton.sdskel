@@ -1,0 +1,83 @@
+!Skeleton
+Id: 75b1c383-18a2-45a0-80a1-f32e60bd7988
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/drone/[model]drone.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    c613dc2f3ef627419a7635789be0b6bb: {Name: RootNode, Depth: 0}
+    7fbcd091165c3b4c9ecece168b1ddc47: {Name: root_mesh, Depth: 1}
+    265ea79f2c5a2a4a9ae3a9bee446d818: {Name: dr_body, Depth: 2}
+    c2d2588f7e78934cb50a0e7d2e963268: {Name: dr_r_arm, Depth: 2}
+    474626afc748cb41bae747e621e2b7ef: {Name: dr_l_arm, Depth: 2}
+    a8a63feee1fa10439e8067362f5c6e65: {Name: Character001, Depth: 1}
+    95ba36da29c98b499c0afcf81738127f: {Name: 'root_rig ', Depth: 1}
+    cc76116a3203aa4d85b6ec00e98d2f95: {Name: Body_bone, Depth: 1}
+    e71d1a0cdab01844a6b0f6537df7c87e: {Name: f_R_boost, Depth: 2}
+    d7f26c48b8b88346b2bcdecf2ec14965: {Name: b_u_R_boost, Depth: 2}
+    100b51543fd11042a12a18f9ba52e627: {Name: u-u-boost, Depth: 2}
+    e9839f8c8d8fc04698a444ce335f6a07: {Name: f_l_boost, Depth: 2}
+    2386e3f5d140d8408125d6fde9fd3ccc: {Name: b_u_l_boost, Depth: 2}
+    d0035b510aa16241bb1b3d78973907ba: {Name: b_t_boost, Depth: 2}
+    5e58eea04e6fc247a41b6ada22bd1864: {Name: RED, Depth: 2}
+    c7ef8f4804f23f4195edb1c3c5a80710: {Name: REDD, Depth: 3}
+    e232b6ed9b0577438ae51440795f948d: {Name: REDU, Depth: 3}
+    4b918c941209e9468110ecf513a24dc5: {Name: LED, Depth: 2}
+    650a45dc8f2cbd4697407a649bb0cb3f: {Name: LEDD, Depth: 3}
+    41dd8ef1e0cd7e41ac0f66a6cbdd4649: {Name: LEDU, Depth: 3}
+    2f3622fa7a26a04f8a27161cef879535: {Name: REU, Depth: 2}
+    3132a52039c05949a4681fb324a46fdd: {Name: REUD, Depth: 3}
+    615a3ed9fd5077479c3c6c185a5f3147: {Name: REUU, Depth: 3}
+    4f4339713036ff4e8e5797872cec7bb6: {Name: LEU, Depth: 2}
+    1624449a9a8e0e4eabcb23242764a020: {Name: LEUD, Depth: 3}
+    58d07b8fc2d028429a3998485246dae5: {Name: LEUU, Depth: 3}
+    a84805479742944e9e694662b7a93ccb: {Name: Circle027, Depth: 2}
+    06821ea0d8e4cc4fb7c81cdc12a3c2ba: {Name: r_arm00, Depth: 3}
+    0254bf0a6a93ae40881d8fdfd6f5e90a: {Name: Circle003, Depth: 4}
+    77e8004f4bb4e04db090fe6917c5daa8: {Name: r_arm01, Depth: 5}
+    ee2d4e17ef927f498fead57b550857cd: {Name: Circle005, Depth: 6}
+    ce97e5e5a0ba104d9f51eec536621bef: {Name: r_arm02, Depth: 7}
+    690a04c94624bc4f82e6d5578e576a16: {Name: Circle006, Depth: 8}
+    ddf0f8b628096e40b38597649db497ea: {Name: r_arm03, Depth: 9}
+    0abb5ca9522cab46977380cba4c927a2: {Name: Circle021, Depth: 10}
+    2f2203359cd34b4fb60a8dda60f1fe86: {Name: r_arm006, Depth: 11}
+    57594d17e06f554387084304757d4edb: {Name: Circle009, Depth: 12}
+    7eab06f1f2d5b64c87a60dd959de112e: {Name: r_arm04, Depth: 13}
+    3492de11a6fe8a47a9d83f10da91dddb: {Name: Circle011, Depth: 14}
+    b2310db8cc7b9a4b9f6410bfe19cacce: {Name: r_arm05, Depth: 15}
+    594108cf5f123c40989c5962f3bea612: {Name: Circle023, Depth: 16}
+    fd1e64a5585ecd49808ab39c852e61b7: {Name: r_arm007, Depth: 17}
+    dd078acea326564f861564e93ea57dc7: {Name: Circle014, Depth: 18}
+    1303dd8935ef144a8c28641fd0bb7292: {Name: r_finger00, Depth: 19}
+    3622fc43fd03fc49a9e4151ce7f9455f: {Name: Circle016, Depth: 20}
+    41a5f9eb9f775948b921a87dc3a14320: {Name: r_finger01, Depth: 21}
+    df2c35de00d1a144b65849998d31c3f8: {Name: Circle013, Depth: 18}
+    fa0a88513cbdd14b98c436bb0f7385de: {Name: r_finger02, Depth: 19}
+    65497c7a0cb80146a3213bb6546a09e7: {Name: Circle015, Depth: 20}
+    b6c27eed1624f54f8a5171cda7cc93a2: {Name: r_finger03, Depth: 21}
+    1b4459019b65d94593c25651d7a1648b: {Name: Circle028, Depth: 2}
+    e53b34a833d71d49b1df3624f77baec3: {Name: l_arm00, Depth: 3}
+    60813290fe5f0c40b4eaafe68af00fde: {Name: Circle004, Depth: 4}
+    6706ce298dd6634db4af46cdbec672e0: {Name: l_arm01, Depth: 5}
+    54e0cd190a6ec444a74ec57eb3d4a340: {Name: Circle008, Depth: 6}
+    a23462683b0c074fac469e50a59b4e42: {Name: l_arm02, Depth: 7}
+    7a3538882e0ddd4ca7ee05a8325d346c: {Name: Circle007, Depth: 8}
+    46fa4eb2f19d0e418a8ed5ff0cf8408a: {Name: l_arm03, Depth: 9}
+    3760b1a875c5b9408b8856ec8c9b7f70: {Name: Circle022, Depth: 10}
+    d7a4f9d482c8ee49ad97b3cccf3b4380: {Name: l_arm006, Depth: 11}
+    03a233e1a8889c468188f289ed6a5422: {Name: Circle010, Depth: 12}
+    7b13f03f61cb0e4491cb9fb2be1c3a01: {Name: l_arm04, Depth: 13}
+    5bc29546b2ca0c499c0b6acf4aaba7b0: {Name: Circle012, Depth: 14}
+    cfc9211662840c4cb469c70c9346b0be: {Name: l_arm05, Depth: 15}
+    9cdd8a7c58a28c4ab47e70d25fc65acb: {Name: Circle024, Depth: 16}
+    e8fbc3b16c2a9d47ba1800dbd26007ca: {Name: l_arm007, Depth: 17}
+    86d054bfca51ee46845419d251557ba8: {Name: Circle017, Depth: 18}
+    de299fffcf0afd47b5c92b6b2a65b78b: {Name: l_finger02, Depth: 19}
+    73f70b006ea7a045abf9cc90ad50a090: {Name: Circle020, Depth: 20}
+    a42e530b4111e24fbb66f2ecac7978a8: {Name: l_finger03, Depth: 21}
+    1cf2a52a60eb7b48aa18631da6907b30: {Name: Circle018, Depth: 18}
+    d879b676a1ae7c468a346d25b9c74220: {Name: l_finger00, Depth: 19}
+    d4f81edd6c1c56498762c3acbd2ffbc5: {Name: Circle019, Depth: 20}
+    700d4253c24d2c49b61d86bc40f671e8: {Name: l_finger01, Depth: 21}
+~SourceHashes:
+    fb1f0bb3546f85e160a92de9bb00d2f7~../../../RawAssets/sci-fi/drone/[model]drone.FBX: 2b9d137426a70213faaf2eb1e4aad240

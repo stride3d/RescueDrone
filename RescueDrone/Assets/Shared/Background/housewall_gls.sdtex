@@ -1,0 +1,7 @@
+!Texture
+Id: 13c45d79-b66b-4b9e-a282-278c8a1ca11e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/housewall_gls.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,10 @@
+!ProceduralModelAsset
+Id: 26fa4a6b-5c7a-48ae-8c5b-36f9fd38e445
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: !SphereProceduralModel
+    Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+    UvScale: {X: 1.0, Y: 1.0}
+    LocalOffset: {X: 0.0, Y: 0.0, Z: 0.0}
+    MaterialInstance:
+        Material: 244ab981-b573-46f4-bd40-32eabb1cc707:bulbs

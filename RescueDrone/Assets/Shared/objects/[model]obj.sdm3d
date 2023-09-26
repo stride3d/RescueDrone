@@ -1,0 +1,27 @@
+!Model
+Id: f52af1c8-3f32-47a4-b479-010979d39a78
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]obj.FBX
+Skeleton: 1b42820b-3542-4bad-9e66-247fb32b0ea5:objects/[model]obj Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    330860a27409c04da9d9d057edb2e87d:
+        Name: airduct_iron
+        MaterialInstance:
+            Material: 4cadef96-f209-4220-9327-d029f496a329:objects/airduct_iron
+    5ce3f36033aace47833e62069d5fe667:
+        Name: airduct_gum
+        MaterialInstance:
+            Material: 9731a9c0-5bde-42a0-8044-7ed57feff006:objects/airduct1_gum
+    7d99bcce6112bd45a4584d07446ce36f:
+        Name: plant0
+        MaterialInstance:
+            Material: b02189ee-1b0a-43fd-9225-42cc043118fd:objects/plant0
+    263e6c2520a5834883887639aebc144b:
+        Name: debri
+        MaterialInstance:
+            Material: 625df7f6-0141-4761-ac49-1bc5aa420fda:objects/debri
+Modifiers: {}
+~SourceHashes:
+    7d235bf22af2ba52fd7d472883066b92~../../../RawAssets/sci-fi/Chair/[model]obj.FBX: bee1b5287f0bb82988d056601145b28c

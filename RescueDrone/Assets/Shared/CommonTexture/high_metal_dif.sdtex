@@ -1,0 +1,8 @@
+!Texture
+Id: 565d627d-eee4-4bf7-879a-d32b8585de3f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/high_metal_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

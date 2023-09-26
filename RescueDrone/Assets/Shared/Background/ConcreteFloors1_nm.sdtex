@@ -1,0 +1,7 @@
+!Texture
+Id: ff56c89a-3390-475e-83a0-f3516d0bbd96
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/ConcreteFloors1_nm.png
+IsCompressed: false
+Type: !NormalMapTextureType {}

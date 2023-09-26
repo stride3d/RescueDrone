@@ -1,0 +1,15 @@
+!Model
+Id: 23169edb-67d6-4029-87b4-0db8d97f0bbf
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]plant2.FBX
+Skeleton: e3a0f07b-a0db-411f-bc4e-a7bec4b001f8:objects/[model]plant2 Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d59345ad6307424cadeb481f5d8cd8db:
+        Name: plant1
+        MaterialInstance:
+            Material: e5ff4d73-4e69-4923-b112-dbf0fc4c5c02:objects/plant0_1
+Modifiers: {}
+~SourceHashes:
+    71689c152c4332bd744f0df30f1c5b04~../../../RawAssets/sci-fi/Chair/[model]plant2.FBX: b0a747efd75a2e8dddae09d1c94ffd52

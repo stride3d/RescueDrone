@@ -1,0 +1,7 @@
+!Texture
+Id: f0f73a7e-2fa0-43ee-ad69-eb299fbcdd3d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/Puddle0_msk.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

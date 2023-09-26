@@ -1,0 +1,8 @@
+!Texture
+Id: 6af2102a-8d08-4106-aa22-400c346c1c8d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/leaking00_msk.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

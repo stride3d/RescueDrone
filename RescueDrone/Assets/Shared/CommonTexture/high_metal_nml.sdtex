@@ -1,0 +1,6 @@
+!Texture
+Id: 0aac5b0b-a069-4190-83ef-c75807632a79
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/high_metal_nml.jpg
+Type: !NormalMapTextureType {}

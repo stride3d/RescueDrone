@@ -1,0 +1,7 @@
+!Texture
+Id: 3d8d17c6-7259-4eac-83c0-ff65371b461e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/ground_debris.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

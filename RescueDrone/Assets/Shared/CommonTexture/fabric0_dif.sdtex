@@ -1,0 +1,7 @@
+!Texture
+Id: f1feb63d-22f9-49c6-83fc-d38a2f6a803a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/fabric0_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

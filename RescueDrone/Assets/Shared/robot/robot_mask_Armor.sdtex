@@ -1,0 +1,7 @@
+!Texture
+Id: 9d6e6cd3-607e-4845-843a-cf78638dac1c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Robot/robot_mask_Armor.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

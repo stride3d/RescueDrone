@@ -1,0 +1,7 @@
+!Texture
+Id: 66c0ee26-5023-4390-8258-7ef92dd9c70f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/grass0_nml.png
+IsCompressed: false
+Type: !NormalMapTextureType {}

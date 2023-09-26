@@ -1,0 +1,7 @@
+!Texture
+Id: ec7dce6d-c2df-4a57-b1cc-3e25e66b7bc0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/Silver_gls.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

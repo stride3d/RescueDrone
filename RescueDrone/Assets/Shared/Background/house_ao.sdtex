@@ -1,0 +1,7 @@
+!Texture
+Id: 618e318a-380d-43c8-98fc-c92a849d54a1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/house_ao.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

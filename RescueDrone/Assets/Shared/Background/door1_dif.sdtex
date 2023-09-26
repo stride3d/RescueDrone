@@ -1,0 +1,7 @@
+!Texture
+Id: cc96d7e4-a857-4352-b9fb-a332de0b0879
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/door1_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

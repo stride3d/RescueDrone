@@ -1,0 +1,8 @@
+!Texture
+Id: 8572dd9b-c9ca-4291-86b6-9bb5d5ac688a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/light0_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

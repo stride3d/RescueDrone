@@ -1,0 +1,17 @@
+!Animation
+Id: 096bac9e-8e28-4274-8219-1da1ed06d97b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]obj.FBX
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 1b42820b-3542-4bad-9e66-247fb32b0ea5:objects/[model]obj Skeleton
+RootMotion: false
+PreviewModel: f52af1c8-3f32-47a4-b479-010979d39a78:objects/[model]obj
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:30:00.0000000

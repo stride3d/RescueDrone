@@ -1,0 +1,7 @@
+!Texture
+Id: 5a032f53-b3d7-486a-a615-9680b8b3999b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/building_ao.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

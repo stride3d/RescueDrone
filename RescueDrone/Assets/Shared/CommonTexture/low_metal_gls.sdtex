@@ -1,0 +1,7 @@
+!Texture
+Id: bca39a00-4959-448d-8a24-67f166be3aef
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/low_metal_gls.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

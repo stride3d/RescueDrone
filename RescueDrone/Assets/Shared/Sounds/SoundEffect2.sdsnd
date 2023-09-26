@@ -1,0 +1,7 @@
+!Sound
+Id: da1fc037-5ac5-438a-8893-727b5a504d58
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/Sounds/wave2.wav
+StreamFromDisk: false
+Spatialized: true

@@ -1,0 +1,7 @@
+!Texture
+Id: 7f67f64e-9886-480d-8a9c-132668e8397f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/bolt_cav.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

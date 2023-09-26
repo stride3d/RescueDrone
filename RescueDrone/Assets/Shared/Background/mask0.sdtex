@@ -1,0 +1,7 @@
+!Texture
+Id: 1abb67b5-295e-41d1-bd47-a8674cf14d56
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/mask0.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

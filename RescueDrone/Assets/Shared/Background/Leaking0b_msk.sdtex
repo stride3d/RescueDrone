@@ -1,0 +1,7 @@
+!Texture
+Id: 63c045d8-6874-43e6-8ac6-92997c467c0d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/Leaking0b_msk.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

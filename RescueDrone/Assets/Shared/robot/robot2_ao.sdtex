@@ -1,0 +1,7 @@
+!Texture
+Id: 629d403b-6c8f-4969-837f-bc72344e5aab
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Robot/robot2_ao.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

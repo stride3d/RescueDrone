@@ -1,0 +1,7 @@
+!Texture
+Id: 3bb216aa-9ebc-4baa-acb3-ec424bad3a79
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/low_metal_cav.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,7 @@
+!Texture
+Id: 130cc566-e1d9-4145-845d-63a3d28ce0c5
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/wire_cav.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,15 @@
+!Model
+Id: 6735b7c8-d2d9-4e1d-8fea-7fa1a6256e1a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CAM/CAM01.FBX
+Skeleton: bb4f7547-c0df-43b2-b50f-4c70c9edd85c:Camera/CAM01 Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    fe0f722b28c564ae044289ea044289ea:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Modifiers: {}
+~SourceHashes:
+    7021cdd809904c22b50b6dadc7570c14~../../../RawAssets/sci-fi/CAM/CAM01.FBX: 1eb94d22b745c88bf87d3db6b2b69c46

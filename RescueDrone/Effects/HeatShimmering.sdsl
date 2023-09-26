@@ -1,0 +1,60 @@
+// Copyright (c) .NET Foundation and Contributors (https://dotnetfoundation.org/ & https://stride3d.net) and Silicon Studio Corp. (https://www.siliconstudio.co.jp)
+// Distributed under the MIT license. See the LICENSE.md file in the project root for more information.
+
+class HeatShimmering : ShadingBase, TransformationWAndVP, Texturing, Transformation, Global
+{
+    cbuffer PerMaterial
+    {
+        stage float3 HeatCenter;
+        stage float3 HeatUp;
+    }
+
+    rgroup PerMaterial
+    {
+        Texture2D SceneTexture;
+    }
+
+    float hash( float n ) { return frac(sin(n)*753.5453123); }
+    float noise3( in float3 x )
+    {
+        float3 p = floor(x);
+        float3 f = frac(x);
+        f = f*f*(3.0-2.0*f);
+	
+        float n = p.x + p.y*157.0 + 113.0*p.z;
+        return lerp(lerp(lerp( hash(n+  0.0), hash(n+  1.0),f.x),
+                       lerp( hash(n+157.0), hash(n+158.0),f.x),f.y),
+                   lerp(lerp( hash(n+113.0), hash(n+114.0),f.x),
+                       lerp( hash(n+270.0), hash(n+271.0),f.x),f.y),f.z);
+    }
+
+    // Shading of the sprite
+    stage override float4 Shading()
+    {
+        float3 viewWS = -normalize(Eye.xyz - streams.PositionWS.xyz);
+
+        float3 center = HeatCenter + HeatUp * 0.2;
+
+        float distort = 0;
+        var p = streams.PositionWS.xyz;
+        float amount = 0;
+        float inner = 0;
+        int count = 16;
+        for(int i = 0; i < count; i++)
+        {
+            amount += min(1.0, length(p - center)/0.5f);
+            distort += noise3(p * 30.0f + HeatUp * Time * 25.0f);
+            p += viewWS * 1.0f / count;
+        }
+        
+        amount = amount / count;
+        //amount *= amount;
+
+        var ssTexCoord = (float2(streams.PositionH.x, -streams.PositionH.y) / streams.PositionH.w) * 0.5 + 0.5;
+
+        amount = 1.0f - amount;
+
+        return SceneTexture.Sample(LinearSampler, ssTexCoord + float2(cos(distort), sin(distort)) * amount * 0.02);
+        //return lerp(SceneTexture.Sample(LinearSampler, ssTexCoord), float4(1,1,1,1), amount);
+    }
+};

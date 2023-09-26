@@ -1,0 +1,7 @@
+!Texture
+Id: ae04d420-105d-47b8-be87-821370f91c94
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/paintedMetal0_gls.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

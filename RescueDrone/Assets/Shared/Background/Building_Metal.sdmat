@@ -1,0 +1,71 @@
+!MaterialAsset
+Id: d3ba22ad-d257-48e8-99ba-c1f3f2c6f50f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    MicroSurface: !MaterialGlossinessMapFeature
+        GlossinessMap: !ComputeTextureScalar
+            Texture: 50c1f033-609f-425f-becc-4e7d78367afd:Background/Metal0_gls
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 2.0, Y: 3.0}
+            Offset: {X: 0.0, Y: 0.2}
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: 3c9fb23c-3ae7-406a-9c62-42dd0e46000e:Background/Metal0_dif
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 2.0, Y: 3.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Specular: !MaterialMetalnessMapFeature
+        MetalnessMap: !ComputeFloat
+            Value: 1.0
+    SpecularModel: !MaterialSpecularMicrofacetModelFeature
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionGGX {}
+        Environment: !MaterialSpecularMicrofacetEnvironmentGGXLUT {}
+    Occlusion: !MaterialOcclusionMapFeature
+        AmbientOcclusionMap: !ComputeTextureScalar
+            Texture: 5a032f53-b3d7-486a-a615-9680b8b3999b:Background/building_ao
+            FallbackValue:
+                Value: 1.0
+            TexcoordIndex: Texcoord1
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DirectLightingFactor: !ComputeFloat
+            Value: 0.0
+        CavityMap: !ComputeTextureScalar
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DiffuseCavity: !ComputeFloat
+            Value: 1.0
+        SpecularCavity: !ComputeFloat
+            Value: 1.0
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers:
+    242adf68063d6d49b949cbe36b97e4d0:
+        Material: 3bc262e2-a910-47c2-aa50-4d76aae316e7:Background/House_pipe
+        BlendMap: !ComputeTextureScalar
+            Texture: 94b84e18-0aae-4d6f-8579-1575e3605a6a:CommonTexture/Common_6_msk
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 6.0, Y: 5.0}
+            Offset: {X: 0.0, Y: 0.2}
+        Overrides:
+            UVScale: {X: 1.0, Y: 1.0}
+    5f064a27aafc8342ad5ab15aa42eec0f:
+        Material: 7757473b-ab7b-4dc0-b958-59f370d0c61b:Background/Material
+        BlendMap: !ComputeTextureScalar
+            Texture: 9ebcaf3e-4974-4e3b-8147-f1fa5cf457a5:Background/Leaking0_msk
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 3.0, Y: 3.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Overrides:
+            UVScale: {X: 1.0, Y: 1.0}

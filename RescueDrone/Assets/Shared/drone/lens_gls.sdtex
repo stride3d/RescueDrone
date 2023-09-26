@@ -1,0 +1,7 @@
+!Texture
+Id: 10d704aa-6811-4cc3-9b2f-156ee5663dec
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/drone/lens_gls.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,6 @@
+!Texture
+Id: 5ad5648f-223f-4b61-8073-9edc39c6a0d8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/vinyl0_nml.png
+Type: !NormalMapTextureType {}

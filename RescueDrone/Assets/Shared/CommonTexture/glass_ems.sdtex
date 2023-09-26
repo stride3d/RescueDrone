@@ -1,0 +1,8 @@
+!Texture
+Id: f7e5a717-d4d1-40e2-8fa6-3dbf56e2a5d7
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/glass_ems.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

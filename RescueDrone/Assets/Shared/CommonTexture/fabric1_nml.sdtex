@@ -1,0 +1,6 @@
+!Texture
+Id: 18ddc509-ad2c-4a7c-889f-05f9e43b4ac4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/fabric1_nml.png
+Type: !NormalMapTextureType {}

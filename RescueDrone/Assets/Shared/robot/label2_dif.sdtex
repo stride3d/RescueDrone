@@ -1,0 +1,8 @@
+!Texture
+Id: 2b3e4aff-4466-43f8-938e-651398182c54
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Robot/label2_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

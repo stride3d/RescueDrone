@@ -1,0 +1,8 @@
+!Texture
+Id: d38cce93-8b02-4c1d-90f1-579bcc585eea
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/plastic_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

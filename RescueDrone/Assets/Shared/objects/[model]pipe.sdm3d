@@ -1,0 +1,31 @@
+!Model
+Id: 3b3c7883-71d3-44d4-90a4-a87136965a36
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]pipe.FBX
+Skeleton: 0ab9136c-b534-44ee-b5dd-872611c91ab1:objects/[model]pipe Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    daf1e5de4cbc64479c4ac084fc623914:
+        Name: pipe_main
+        MaterialInstance:
+            Material: 846c4ef2-2ef0-41fc-a9ea-b30be6e660e7:objects/pipe_main
+    5a6955ff9aea56418392eb5c9366deb6:
+        Name: pipe_industrial
+        MaterialInstance:
+            Material: a4651fdb-8701-4b41-b2b4-cfc35406ee17:objects/pipe_industrial
+    75a0133e5a168a4dbae609222beb2d1a:
+        Name: pipe_cement
+        MaterialInstance:
+            Material: c9d2e235-f00a-4436-a14c-cbbb37ea1d56:objects/pipe_cement
+    8d93e66be530404d8d5d3a554625debf:
+        Name: pipe_paintmetal
+        MaterialInstance:
+            Material: 231c20bc-3bea-46a7-8a26-2ac37d4f9073:objects/pipe_paintmetal
+    c55b353d3f3a804d8c0d5cdea4810ee1:
+        Name: pipe_iron
+        MaterialInstance:
+            Material: f75b158b-4423-43fd-bfc8-3d479c3c6143:objects/pipe_iron
+Modifiers: {}
+~SourceHashes:
+    47e89f33598bf7811f67e903e92e10c9~../../../RawAssets/sci-fi/Chair/[model]pipe.FBX: 543d633153b2d56780cf6945346a756e

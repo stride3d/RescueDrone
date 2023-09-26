@@ -1,0 +1,7 @@
+!Texture
+Id: f3a15566-c134-4efe-9d44-1cee15ea51e6
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/ground0_mask.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

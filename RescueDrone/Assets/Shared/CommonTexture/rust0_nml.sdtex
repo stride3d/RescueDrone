@@ -1,0 +1,6 @@
+!Texture
+Id: 6015dea6-36df-4315-a28c-bab2256da64d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/rust0_nml.png
+Type: !NormalMapTextureType {}

@@ -1,0 +1,7 @@
+!Texture
+Id: 48477678-7ecc-4968-8d2d-705595d649dd
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/ConcreteFloors1_gls.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

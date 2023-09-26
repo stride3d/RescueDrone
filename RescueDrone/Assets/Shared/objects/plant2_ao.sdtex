@@ -1,0 +1,7 @@
+!Texture
+Id: bc1c4778-b643-4877-af53-997c450be2b0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/plant2_ao.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

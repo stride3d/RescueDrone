@@ -1,0 +1,6 @@
+!Texture
+Id: acd99b52-194b-4c5a-a1b6-adff7c917749
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/pattern_metal_nml.jpg
+Type: !NormalMapTextureType {}

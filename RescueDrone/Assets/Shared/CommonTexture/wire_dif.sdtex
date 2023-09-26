@@ -1,0 +1,8 @@
+!Texture
+Id: 3fe56711-911d-484e-b49e-2bf3c6e25d58
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/wire_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

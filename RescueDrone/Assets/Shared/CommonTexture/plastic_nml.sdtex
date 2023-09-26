@@ -1,0 +1,6 @@
+!Texture
+Id: cf8293e4-3ef6-4dc0-9d1f-fad4c0ca042a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/plastic_nml.jpg
+Type: !NormalMapTextureType {}

@@ -1,0 +1,8 @@
+!Texture
+Id: ea91501e-1d97-4921-bfcc-1edaeaec8730
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/rust0_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

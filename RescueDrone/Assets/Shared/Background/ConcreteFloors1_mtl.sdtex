@@ -1,0 +1,7 @@
+!Texture
+Id: 1bcfdf92-cc99-4c69-820d-9e212064176a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/ConcreteFloors1_mtl.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

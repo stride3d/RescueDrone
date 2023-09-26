@@ -1,0 +1,6 @@
+!Texture
+Id: 87813a08-22a1-4b0c-a24e-7402d486ddf4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/Soil0_nml.png
+Type: !NormalMapTextureType {}

@@ -1,0 +1,8 @@
+!Texture
+Id: 34d5ea13-e7a1-480b-81b5-23d7497ab1cf
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/ceramic1_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

@@ -1,0 +1,8 @@
+!Texture
+Id: a2cf050a-ca67-4462-8370-dc9de5ce7955
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/pattern_metal_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

@@ -1,0 +1,7 @@
+!Texture
+Id: 50196f59-2780-43bb-9716-64a3221b2606
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/red_metal_gls.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

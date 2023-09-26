@@ -1,0 +1,9 @@
+!Texture
+Id: 7b2aff6b-f45f-4bfe-ab3d-735c85be8e9d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/leaf0_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    Alpha: Mask
+    PremultiplyAlpha: false

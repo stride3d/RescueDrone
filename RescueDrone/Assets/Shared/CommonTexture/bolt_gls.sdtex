@@ -1,0 +1,7 @@
+!Texture
+Id: c7ce7445-d3de-48c1-bdd8-5d8d7c0b0723
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/bolt_gls.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

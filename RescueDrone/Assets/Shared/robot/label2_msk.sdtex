@@ -1,0 +1,7 @@
+!Texture
+Id: 05bcd2a9-919e-4c77-a10a-227a5288e335
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Robot/label2_msk.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,6 @@
+!Texture
+Id: 95b0d589-a4ca-4694-af7d-3448f5e0ba3a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/low_metal_nml.jpg
+Type: !NormalMapTextureType {}

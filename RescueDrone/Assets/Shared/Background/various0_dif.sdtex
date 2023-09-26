@@ -1,0 +1,7 @@
+!Texture
+Id: 0070a3e1-6ff6-4840-b9b3-c074986e3a9b
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/various0_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

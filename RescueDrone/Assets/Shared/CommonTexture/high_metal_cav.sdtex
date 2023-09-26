@@ -1,0 +1,7 @@
+!Texture
+Id: 0400f332-15a8-4a94-8338-992f8ed8d7db
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/high_metal_cav.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

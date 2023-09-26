@@ -1,0 +1,75 @@
+!MaterialAsset
+Id: 2068cf27-b5ea-4617-b614-6739c1f3abe4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    MicroSurface: !MaterialGlossinessMapFeature
+        GlossinessMap: !ComputeTextureScalar
+            Texture: c7ce7445-d3de-48c1-bdd8-5d8d7c0b0723:CommonTexture/bolt_gls
+            FallbackValue:
+                Value: 1.0
+            Filtering: Anisotropic
+            Scale: {X: 30.0, Y: 40.0}
+            Offset: {X: 0.0, Y: 0.0}
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: cc96d7e4-a857-4352-b9fb-a332de0b0879:Background/door1_dif
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Filtering: Anisotropic
+            Scale: {X: 10.0, Y: 20.0}
+            Offset: {X: 0.7, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Specular: !MaterialMetalnessMapFeature
+        MetalnessMap: !ComputeFloat
+            Value: 0.885156
+    SpecularModel: !MaterialSpecularMicrofacetModelFeature
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionGGX {}
+        Environment: !MaterialSpecularMicrofacetEnvironmentGGXLUT {}
+    Occlusion: !MaterialOcclusionMapFeature
+        AmbientOcclusionMap: !ComputeTextureScalar
+            Texture: 5a032f53-b3d7-486a-a615-9680b8b3999b:Background/building_ao
+            FallbackValue:
+                Value: 1.0
+            TexcoordIndex: Texcoord1
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DirectLightingFactor: !ComputeFloat
+            Value: 0.0
+        CavityMap: !ComputeTextureScalar
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DiffuseCavity: !ComputeFloat
+            Value: 1.0
+        SpecularCavity: !ComputeFloat
+            Value: 1.0
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers:
+    0844a3842ae75d45b5272d787e5a7cbc:
+        Material: 724e77d2-7738-40b2-8310-b9aa873bd67a:Background/moss
+        BlendMap: !ComputeTextureScalar
+            Texture: 63c045d8-6874-43e6-8ac6-92997c467c0d:Background/Leaking0b_msk
+            FallbackValue:
+                Value: 1.0
+            Filtering: Anisotropic
+            Scale: {X: 10.0, Y: 14.0}
+            Offset: {X: 0.5, Y: 0.0}
+        Overrides:
+            UVScale: {X: 1.0, Y: 1.0}
+    965dc13a97802e4ca01f45b75d2a0593:
+        Material: 24280c00-10f1-49fa-8eea-577f051f4cd1:CommonMaterial/CommonRust
+        BlendMap: !ComputeTextureScalar
+            Texture: 94b84e18-0aae-4d6f-8579-1575e3605a6a:CommonTexture/Common_6_msk
+            FallbackValue:
+                Value: 1.0
+            Filtering: Anisotropic
+            Scale: {X: 10.0, Y: 20.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Overrides:
+            UVScale: {X: 1.0, Y: 1.0}

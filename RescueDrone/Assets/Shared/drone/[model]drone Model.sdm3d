@@ -1,0 +1,55 @@
+!Model
+Id: 3ca0f1c8-9b41-45ce-913f-a03f1ce76a46
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/drone/[model]drone.FBX
+Skeleton: 75b1c383-18a2-45a0-80a1-f32e60bd7988:drone/[model]drone Model Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    055d2a948c93ce41af10fefebd1b2a55:
+        Name: dr_ceramic
+        MaterialInstance:
+            Material: 36940c3c-ec8b-41ee-b692-a59f01331575:drone/dr_ceramic
+    d92579a5df954c41982f05465720cd28:
+        Name: dr_chome
+        MaterialInstance:
+            Material: d3a34d2d-2216-46de-8eba-238a48d4ef09:drone/dr_chome
+    1467f53da121f140b5d2900b6576a843:
+        Name: dr_light
+        MaterialInstance:
+            Material: b0faa256-a70f-4ba3-832b-52f6b2403526:drone/dr_light
+    a025ea14d3b08741ab2dbb8d70527389:
+        Name: dr_carbon
+        MaterialInstance:
+            Material: dfdbc88e-0de2-422a-877c-8bf2dc4092a3:drone/dr_carbon
+    da691cc20598f444b3a11a6deb91c679:
+        Name: dr_light2
+        MaterialInstance:
+            Material: 4650225a-8f4e-4278-9f63-722955a447c9:drone/dr_light2
+    e988537e434e6541951f56bb3aec5baa:
+        Name: dr_high_metal
+        MaterialInstance:
+            Material: a62496b8-65c9-408a-9e09-d8d6e4003746:drone/dr_high_metal
+    1f5589284f80734ca845cf9fef07fe37:
+        Name: dr_bronze
+        MaterialInstance:
+            Material: 366b7b9d-9526-47e7-8bd7-26cb298535ee:drone/dr_bronze
+    d9c87c8e7e227c4ab9462950e607c65c:
+        Name: dr_low_metal
+        MaterialInstance:
+            Material: 0fd319de-21c6-48c7-a325-aecdedd2b9aa:drone/dr_low_metal
+    c3cfd93b0fa22845af9b3c3ebcf8feb6:
+        Name: dr_bolt
+        MaterialInstance:
+            Material: 0b074c76-ff35-49c3-8aee-9f6ab10a0229:drone/dr_bolt
+    fcfc2b828100f643843bf7ec5dd06a76:
+        Name: dr_light3
+        MaterialInstance:
+            Material: 2ffadfa8-57c5-42c6-a645-1a76958f9704:drone/dr_light4
+    2fdbe6a7f4d61c4ab2890f7b3957e1f8:
+        Name: 21-Default
+        MaterialInstance:
+            Material: 0fd319de-21c6-48c7-a325-aecdedd2b9aa:drone/dr_low_metal
+Modifiers: {}
+~SourceHashes:
+    629237d68b5ed5d178b79c948f749454~../../../RawAssets/sci-fi/drone/[model]drone.FBX: 2b9d137426a70213faaf2eb1e4aad240

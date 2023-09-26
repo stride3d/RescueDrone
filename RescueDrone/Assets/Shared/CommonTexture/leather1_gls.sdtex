@@ -1,0 +1,8 @@
+!Texture
+Id: 262a5feb-9ea5-4ccb-af49-2159727d0656
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/leather1_gls.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

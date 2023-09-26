@@ -1,0 +1,6 @@
+!Texture
+Id: 7020f8ee-17c9-40bd-a7cd-6386d4568b7c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/ceramic_nml.png
+Type: !NormalMapTextureType {}

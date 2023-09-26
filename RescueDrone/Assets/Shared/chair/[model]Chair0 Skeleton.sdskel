@@ -1,0 +1,11 @@
+!Skeleton
+Id: 380085ad-ea8b-4c6a-a73a-e7c266bc7c87
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]Chair0.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    f8cb8872cadf35409f2a313129d5eeb5: {Name: RootNode, Depth: 0}
+    a58e14407b14cc408f06a2a25b9dfa64: {Name: isu, Depth: 1}
+~SourceHashes:
+    4a5bda01c5d21ae04688389273175253~../../../RawAssets/sci-fi/Chair/[model]Chair0.FBX: 62636e356239dceb9f7cb21346798f9c

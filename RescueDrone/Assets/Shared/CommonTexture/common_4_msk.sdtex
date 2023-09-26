@@ -1,0 +1,8 @@
+!Texture
+Id: 82235c94-6c9f-4793-add4-988fdfd57dfe
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/common_4_msk.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

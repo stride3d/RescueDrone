@@ -1,0 +1,27 @@
+!Skeleton
+Id: 0ab9136c-b534-44ee-b5dd-872611c91ab1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]pipe.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    2db56bcb283146408533a6ff6e5f6465: {Name: RootNode, Depth: 0}
+    751bed40304cc941996b274b0a5ee284: {Name: root_obj2, Depth: 1}
+    737565acd1055740949327f1c881789b: {Name: polySurface82, Depth: 2}
+    384601b73335f74793ae59776599cd10: {Name: polySurface90, Depth: 2}
+    06e23dee1cc6e94fbce7a3154a7ffa5b: {Name: polySurface17, Depth: 2}
+    e0123196763fd240a1700521a264830b: {Name: polySurface27, Depth: 2}
+    99e933b8f3c8714dbd19313f2c4bb115: {Name: polySurface83, Depth: 2}
+    622b50a745fe254faca608924ea581c4: {Name: polySurface117, Depth: 2}
+    226e6eb6ae1f5d41b472452a4824c2bf: {Name: polySurface99, Depth: 2}
+    c2c0818ad8b7b240a246ccd8ffdb417f: {Name: polySurface100, Depth: 2}
+    37bb1c94af00e147a0405dee08186813: {Name: polySurface32_1, Depth: 2}
+    d5883bec5dc3184a8a76938fa32f586d: {Name: polySurface32_2, Depth: 2}
+    8c008ae596dba04d9f701986ec85bd99: {Name: polySurface32_3, Depth: 2}
+    6be638040098e74cb313c7ba404975a6: {Name: pCube1_1, Depth: 2}
+    d564c6e1782d3f44a53a8e8dea5c0bdf: {Name: pCube1_2, Depth: 2}
+    5c1cd812c72a134d9c3fa8b3266127b8: {Name: group7_pCube3_1, Depth: 2}
+    2e6cb3ff19784b43b3001742509cc2e3: {Name: group7_pCube3_2, Depth: 2}
+    961433728a4a3a419afc46dad3799f1f: {Name: polySurface25, Depth: 2}
+~SourceHashes:
+    3d22fe5f4677834e7cfeca2d3a60b448~../../../RawAssets/sci-fi/Chair/[model]pipe.FBX: 543d633153b2d56780cf6945346a756e

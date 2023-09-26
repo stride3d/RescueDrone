@@ -1,0 +1,8 @@
+!Texture
+Id: cf951af7-d30b-4919-9359-590d21fb4b85
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/housewall_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

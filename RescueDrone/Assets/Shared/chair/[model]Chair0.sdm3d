@@ -1,0 +1,19 @@
+!Model
+Id: 6813086f-0b79-434e-bcc8-fdb629af28c3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]Chair0.FBX
+Skeleton: 380085ad-ea8b-4c6a-a73a-e7c266bc7c87:chair/[model]Chair0 Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    ab0d304eb3653b498dd1e0f208436444:
+        Name: chair_iron
+        MaterialInstance:
+            Material: df659732-491c-4a9c-af59-400ec0b76c16:chair/ceramic
+    384adc1228640f41a1ed636c84655c21:
+        Name: chair_lether
+        MaterialInstance:
+            Material: d1409fa0-bcf0-4a85-b764-a4dd54b20f98:chair/ceramic_1
+Modifiers: {}
+~SourceHashes:
+    c188acba744f3ad830680552e3e9b6d8~../../../RawAssets/sci-fi/Chair/[model]Chair0.FBX: 62636e356239dceb9f7cb21346798f9c

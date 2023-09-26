@@ -1,0 +1,8 @@
+!Texture
+Id: 872d3d6c-7c8e-4aa5-af48-2de2e3e4469d
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/leather_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

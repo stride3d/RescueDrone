@@ -1,0 +1,7 @@
+!Texture
+Id: 1c521be7-55bb-4778-89d4-ba255b1b1a78
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/chair_ao.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

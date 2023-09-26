@@ -1,0 +1,86 @@
+!MaterialAsset
+Id: 769b00a9-37fa-4802-abd1-340bfa7b2515
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Surface: !MaterialNormalMapFeature
+        NormalMap: !ComputeTextureColor
+            Texture: acd99b52-194b-4c5a-a1b6-adff7c917749:CommonTexture/pattern_metal_nml
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+        IsXYNormal: true
+    MicroSurface: !MaterialGlossinessMapFeature
+        GlossinessMap: !ComputeTextureScalar
+            Texture: a7ab5ee0-653c-4742-af39-ce36c2b40a32:CommonTexture/pattern_metal_gls
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: a2cf050a-ca67-4462-8370-dc9de5ce7955:CommonTexture/pattern_metal_dif
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Specular: !MaterialMetalnessMapFeature
+        MetalnessMap: !ComputeTextureScalar
+            Texture: 051e9e01-4c26-44b8-b7a8-b54fe58d2517:CommonTexture/pattern_metal_mtl
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+    SpecularModel: !MaterialSpecularMicrofacetModelFeature
+        Fresnel: !MaterialSpecularMicrofacetFresnelSchlick {}
+        Visibility: !MaterialSpecularMicrofacetVisibilitySmithSchlickGGX {}
+        NormalDistribution: !MaterialSpecularMicrofacetNormalDistributionGGX {}
+        Environment: !MaterialSpecularMicrofacetEnvironmentGGXLUT {}
+    Occlusion: !MaterialOcclusionMapFeature
+        AmbientOcclusionMap: !ComputeTextureScalar
+            Texture: 629d403b-6c8f-4969-837f-bc72344e5aab:robot/robot2_ao
+            FallbackValue:
+                Value: 1.0
+            TexcoordIndex: Texcoord1
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DirectLightingFactor: !ComputeFloat
+            Value: 0.0
+        CavityMap: !ComputeTextureScalar
+            Texture: c36b87d1-8166-4df8-ad94-d3911b2f34ca:CommonTexture/pattern_metal_cav
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        DiffuseCavity: !ComputeFloat
+            Value: 1.0
+        SpecularCavity: !ComputeFloat
+            Value: 1.0
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers:
+    d7929e3e2daec14c92903a46da16d9b7:
+        Material: 3b44bc3f-d7bc-4801-b86c-22e35d77810c:robot/mat_decal
+        BlendMap: !ComputeTextureScalar
+            Texture: f54d0655-5b45-4c08-8756-05ae602c0293:robot/label_msk
+            FallbackValue:
+                Value: 1.0
+            TexcoordIndex: Texcoord2
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+        Overrides:
+            UVScale: {X: 1.0, Y: 1.0}
+    940b6127a608f64e947df48382f7d2d3:
+        Material: 24280c00-10f1-49fa-8eea-577f051f4cd1:CommonMaterial/CommonRust
+        BlendMap: !ComputeTextureScalar
+            Texture: 4743a73f-780f-44fc-987b-f497e67da438:CommonTexture/common_3_msk
+            FallbackValue:
+                Value: 1.0
+            Scale: {X: 1.5, Y: 1.5}
+            Offset: {X: 0.0, Y: 0.0}
+        Overrides:
+            UVScale: {X: 1.0, Y: 1.0}

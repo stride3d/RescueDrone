@@ -1,0 +1,8 @@
+!Texture
+Id: 5249c553-d147-4223-ac1d-8f2440a27aab
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/Silver_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

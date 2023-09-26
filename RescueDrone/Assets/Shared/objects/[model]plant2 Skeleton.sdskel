@@ -1,0 +1,13 @@
+!Skeleton
+Id: e3a0f07b-a0db-411f-bc4e-a7bec4b001f8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]plant2.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    fb64741a66bb21409eeb673e92ad35d6: {Name: RootNode, Depth: 0}
+    ac4b645f74eb1241bba0c0c022ce603e: {Name: root_plant2, Depth: 1}
+    373d38d015b2c24eb0639d2e05798e69: {Name: Grass-O-matic001, Depth: 2}
+    1b88758dcee57f419b4917434912555b: {Name: Grass-O-matic002, Depth: 2}
+~SourceHashes:
+    bfab5692bbe1bdfc6aaf7c8064482540~../../../RawAssets/sci-fi/Chair/[model]plant2.FBX: b0a747efd75a2e8dddae09d1c94ffd52

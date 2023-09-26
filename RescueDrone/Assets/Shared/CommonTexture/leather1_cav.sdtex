@@ -1,0 +1,7 @@
+!Texture
+Id: cc953e17-32cc-42ac-a751-e9f686d635f4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/leather1_cav.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

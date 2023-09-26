@@ -1,0 +1,7 @@
+!Texture
+Id: d09d6bc2-1462-4082-9056-9dd926bf5d5e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/paintedMetal0_nml.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

@@ -1,0 +1,63 @@
+!Model
+Id: 3d68707b-e859-4eb4-94a3-41eff1ec8acf
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/robot/Pd_Robot.FBX
+Skeleton: 54b22dfd-fb25-4a7e-ae9c-78d3d3aa009a:robot/Pd_Robot Model Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    b325fe7adaeaf6478f8cfd2e65bb8a11:
+        Name: high_metal
+        MaterialInstance:
+            Material: db3599ee-c31b-4c26-ada4-1015c31fa9e4:robot/high_metal
+    8a2c80b4ee72814abead6ce058b741ed:
+        Name: low_metal
+        MaterialInstance:
+            Material: 4fb2825b-3f2d-4831-90ce-d094ec0e2e5a:robot/low_metal
+    3f9fa675868ab948b0f57e001ee49967:
+        Name: Silver
+        MaterialInstance:
+            Material: 638956b1-fd99-40c3-a380-b298bb7da970:robot/Silver
+    da0b403de174df478f264579b70dcdb2:
+        Name: pattern_metal
+        MaterialInstance:
+            Material: 769b00a9-37fa-4802-abd1-340bfa7b2515:robot/pattern_metal
+    1f7cf0012666514f9f6f631bdf67d877:
+        Name: gum
+        MaterialInstance:
+            Material: 27500398-cb24-49b4-96c0-f0e6f8807e96:robot/gum
+    247f6ccd2935994d9757e3d346f10d1a:
+        Name: red_metal
+        MaterialInstance:
+            Material: a7e3e452-49ad-4592-b1e7-e1709a7f8787:robot/red_metal
+    f1ce3f44a706524281992c437017d540:
+        Name: dummy0
+        MaterialInstance:
+            Material: 0ff6ba22-bdd7-41f8-be7e-78dd604d4a82:robot/Rubber
+    ccd2d917c1f6f142852379b5511e8fdc:
+        Name: dummy1
+        MaterialInstance:
+            Material: 2b4a9174-b586-49bd-938e-485efc852360:robot/dummy1
+    8a7d80b7c4c7314a920e58cd3d61c367:
+        Name: bolt
+        MaterialInstance:
+            Material: 62a326d5-93f4-4265-a665-58b86ba1087c:robot/bolt
+    057656bb81636c4c922d6b518e7952b5:
+        Name: light
+        MaterialInstance:
+            Material: 14f374c1-789d-4524-afa7-03b99967e788:robot/light
+    1581cb4e426ace4c9fc2bd7214e259e9:
+        Name: ceramic
+        MaterialInstance:
+            Material: 31cca81e-59ab-4abb-9153-b20f749202d1:robot/ceramic
+    d4d23d54f72a5b44a3edb936e0b97f8e:
+        Name: plastic
+        MaterialInstance:
+            Material: 73b04a2a-7070-42e0-aff1-e6f48a908807:robot/plastic
+    e2441fb6ea66254c9004c41f76c55bbe:
+        Name: Rubber
+        MaterialInstance:
+            Material: 0ff6ba22-bdd7-41f8-be7e-78dd604d4a82:robot/Rubber
+Modifiers: {}
+~SourceHashes:
+    b087b5f63373103b36afe6aeebd77541~../../../RawAssets/sci-fi/robot/Pd_Robot.FBX: 7cf9e0bdd4bc59231e88023d3e68db1c

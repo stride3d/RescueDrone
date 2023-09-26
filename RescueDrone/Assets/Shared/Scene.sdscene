@@ -1,0 +1,806 @@
+!SceneAsset
+Id: ff1ee0e1-eff2-4672-848d-d0527e60fa4d
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! 5fc5d331-0e2b-48a5-a245-872667564d3c
+        - ref!! 666e257e-b5d7-438c-9842-7048bb93b3e7
+        - ref!! 1db027fc-2993-4b13-97ef-0db7e5cf5f57
+        - ref!! 5234dfaa-12a2-4352-9eb1-ceb1e8bfe04e
+        - ref!! 4123c469-8482-4819-b1c4-e496bcffc9af
+        - ref!! 797cac5b-a4d0-4d26-90cd-36e9aba069d5
+        - ref!! faad1b81-ef2c-4edc-b099-f4025592bdfe
+        - ref!! f8c543f9-52c4-41fb-9a80-43411b2678f2
+        - ref!! dfda5418-3ca6-427d-b13e-66f4a8f8b3bc
+        - ref!! 8bf7f0af-6cee-48b9-8c24-0c13901807e8
+        - ref!! 0bce2989-90e6-47ae-8613-84047446e372
+        - ref!! b87581df-9276-49f1-8c5a-552c3e9a376a
+        - ref!! efdc3826-1d82-4f6c-b5aa-3f97ff669528
+        - ref!! 46a51372-ed25-47b4-9a24-c717752ab3b9
+        - ref!! 2e748e8a-517b-4309-b21a-4dac37cd617b
+        - ref!! f8472d8b-f5aa-4938-8958-c788c68227b0
+    Parts:
+        -   Entity:
+                Id: 0873b549-2542-40aa-808d-2f926f3c7839
+                Name: Sphere
+                Components:
+                    3c5d3f59df45ca6305ea6b3310bf1ee5: !TransformComponent
+                        Id: e9bc5861-c605-4edb-997e-7de60422eb39
+                        Position: {X: -0.24457684, Y: -0.5189742, Z: 1.9891199}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.64171624, Y: 0.64171624, Z: 0.64171624}
+                        Children: {}
+                    a4dacd0a98b88ec46459b2158ad5e122: !ModelComponent
+                        Id: d8b33f4c-cbd4-4709-9f15-0a8e8c216a39
+                        Model: 26fa4a6b-5c7a-48ae-8c5b-36f9fd38e445:Sphere
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: fd956f94-1297-4e0b-b74f-43664bf99c8d
+                InstanceId: 7293f512-10d6-48c4-a83a-a390fa415036
+        -   Entity:
+                Id: 0bce2989-90e6-47ae-8613-84047446e372
+                Name: '[model]ivy'
+                Components:
+                    0e4c382920904b4f8b309fc205f59863: !TransformComponent
+                        Id: 29384c0e-9020-4f4b-8b30-9fc205f59863
+                        Position: {X: 0.522, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: -0.11471319, Z: 0.0, W: 0.99339867}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    4bd30c1e4d292145ad7af8d1f660e0f7: !ModelComponent
+                        Id: 1e0cd34b-294d-4521-ad7a-f8d1f660e0f7
+                        Model: f1e4e5f7-157a-46b2-8388-14576fdb6c02:objects/[model]ivy
+                        Materials: {}
+        -   Entity:
+                Id: 1db027fc-2993-4b13-97ef-0db7e5cf5f57
+                Name: '[model]drone Model'
+                Components:
+                    ba48a9a33494af40bf5c47199cdbeae2: !TransformComponent
+                        Id: a3a948ba-9434-40af-bf5c-47199cdbeae2
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            669979de0717134491a138a8c84eedcd: ref!! de799966-1707-4413-91a1-38a8c84eedcd
+                    8a5bac67daf8c041ad2ddb1a2dd5631f: !AnimationComponent
+                        Id: 67ac5b8a-f8da-41c0-ad2d-db1a2dd5631f
+                        Animations:
+                            8b00ef417a941b4aa1beb2e2d2677dcf~[anim]drone0: a7dcc511-a8eb-4fdd-bae0-0773ea8e8bcd:drone/[anim]drone0
+                    53d6c1e21c0aae4dbfddecc7c77f7540: !RescueDrone.PlayAnimation,RescueDrone
+                        Id: e2c1d653-0a1c-4dae-bfdd-ecc7c77f7540
+                        AnimationName: '[anim]drone0'
+                    194965f069e204428b8ebc73dd99afac: !ModelComponent
+                        Id: f0654919-e269-4204-8b8e-bc73dd99afac
+                        Model: 3ca0f1c8-9b41-45ce-913f-a03f1ce76a46:drone/[model]drone Model
+                        Materials: {}
+        -   Entity:
+                Id: 22de56ed-a189-410c-b81c-af4e8d40ec9a
+                Name: GeoSphere
+                Components:
+                    a67be769630bfc99dd73fb497c6267f0: !TransformComponent
+                        Id: 891bf939-9a91-48a9-927a-e52197668d9a
+                        Position: {X: -0.25299683, Y: 0.56052667, Z: 1.9871873}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3343757, Y: 0.3343757, Z: 0.3343757}
+                        Children: {}
+                    1645abfcf1de9eed7892b4bc0e25a027: !ModelComponent
+                        Id: f720c087-7e4d-4806-9e2f-4740868fe59a
+                        Model: 837af0fa-89a8-40b3-ae74-66c8df0d849f:GeoSphere
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 4c49aef3-4523-494f-911f-d18c83fd22cc
+                InstanceId: 50acfa16-f275-45a5-a641-64ec354ae7f6
+        -   Entity:
+                Id: 25f48cdd-4439-4bea-8852-aa9a427f7c2f
+                Name: DOFTarget
+                Components:
+                    bc571d9c2bdc0d478e0ecaeb61b7a752: !TransformComponent
+                        Id: 9c1d57bc-dc2b-470d-8e0e-caeb61b7a752
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6f49b39442b73a4884100d6c8b65a466: !ModelNodeLinkComponent
+                        Id: 94b3496f-b742-483a-8410-0d6c8b65a466
+                        Target: null
+                        NodeName: Cam_target
+        -   Entity:
+                Id: 2e748e8a-517b-4309-b21a-4dac37cd617b
+                Name: spotlight frefab (3)
+                Components:
+                    9b22d7db1a22348c40a6d01cd06ba5b1: !TransformComponent
+                        Id: c369612a-6aba-4975-819b-92ab5e89f77b
+                        Position: {X: 0.4282512, Y: 4.179247, Z: -10.188842}
+                        Rotation: {X: 0.0, Y: -0.12877095, Z: 0.0, W: 0.99167436}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            449425550682cefafc3b319ccfb2f11a: ref!! ab2f3c7b-cee2-4b35-8012-7cd793bc2747
+        -   Entity:
+                Id: 313b8e9a-1274-47f9-ae44-6caabe38a67c
+                Name: Cylinder
+                Components:
+                    055a074de5346ba952fbe1608e6a4c58: !TransformComponent
+                        Id: 303817a2-9bc3-4e36-aeae-afe86ffa967c
+                        Position: {X: -0.25328627, Y: 0.31180596, Z: 1.9871873}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3328337, Y: 0.46445063, Z: 0.3328337}
+                        Children: {}
+                    9c3decda2f6c3c501b5d2ce8e2a55a40: !ModelComponent
+                        Id: bcf84591-a0ef-4065-afae-f878b8b22b7c
+                        Model: 67d5ce3d-66d4-4318-805d-49076bacb514:Cylinder
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: d58dc3e8-8ed2-4951-bcb3-a407530538f5
+                InstanceId: 69396953-fbb6-4265-8fbe-61a7cc90cc6b
+        -   Entity:
+                Id: 36dca68d-51cd-4864-9c02-6847f79d1df0
+                Name: Sphere
+                Components:
+                    3c5d3f59df45ca6305ea6b3310bf1ee5: !TransformComponent
+                        Id: e9bc5861-c605-4edb-997e-7de60422ebf0
+                        Position: {X: -0.24457684, Y: -0.5189742, Z: 1.9891199}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.64171624, Y: 0.64171624, Z: 0.64171624}
+                        Children: {}
+                    a4dacd0a98b88ec46459b2158ad5e122: !ModelComponent
+                        Id: d8b33f4c-cbd4-4709-9f15-0a8e8c216af0
+                        Model: 26fa4a6b-5c7a-48ae-8c5b-36f9fd38e445:Sphere
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: fd956f94-1297-4e0b-b74f-43664bf99c8d
+                InstanceId: 50acfa16-f275-45a5-a641-64ec354ae7f6
+        -   Entity:
+                Id: 3f05d450-9521-480d-ad4b-c4d33d2e61cf
+                Name: TrackingCamera
+                Components:
+                    ecab65b722d8d241846257c4981b8ab9: !TransformComponent
+                        Id: b765abec-d822-41d2-8462-57c4981b8ab9
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    94280afe2ee0cc49a2d9903b1f93afa8: !ModelNodeLinkComponent
+                        Id: fe0a2894-e02e-49cc-a2d9-903b1f93afa8
+                        Target: null
+                        NodeName: node_CAM_shake
+                    341e2d71d215ac4cbe4dc99a9978bd33: !RescueDrone.AdaptDOF,RescueDrone
+                        Id: 712d1e34-15d2-4cac-be4d-c99a9978bd33
+                        TargetEntity: ref!! 25f48cdd-4439-4bea-8852-aa9a427f7c2f
+                        Aperture: 27.0
+                        Automatic: false
+                    7aa05e38ae82844ea3cf2227fa50d4f5: !CameraComponent
+                        Id: 385ea07a-82ae-4e84-a3cf-2227fa50d4f5
+                        Name: null
+                        Projection: Perspective
+                        VerticalFieldOfView: 28.0
+                        Slot: d0a6bf72-b3cd-4bd4-94ca-69952999d537
+        -   Entity:
+                Id: 4123c469-8482-4819-b1c4-e496bcffc9af
+                Name: Pd_Robot Model
+                Components:
+                    b384088bfd01094184c0b591bd067414: !TransformComponent
+                        Id: 8b0884b3-01fd-4109-84c0-b591bd067414
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 1.1126523E-16, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1ba63dbfe37d1348ab144e7fb538da21: !AnimationComponent
+                        Id: bf3da61b-7de3-4813-ab14-4e7fb538da21
+                        Animations:
+                            72c1d54a206ceb42af22334e125146df~robot_anim: 5e0930de-3c0f-4d7f-983c-5aa098ab6dbc:robot/[anim]Pd_Robot
+                    15b6e4c0c900ac47a3376166e1b33aa5: !RescueDrone.PlayAnimation,RescueDrone
+                        Id: c0e4b615-00c9-47ac-a337-6166e1b33aa5
+                        AnimationName: robot_anim
+                    282ce8ec99a79546b8e737521fcabc1a: !RescueDrone.ChangeEmissive,RescueDrone
+                        Id: ece82c28-a799-4695-b8e7-37521fcabc1a
+                        Material: 14f374c1-789d-4524-afa7-03b99967e788:robot/light
+                        EmissiveIntensity: 5.0
+                        TimeThreshold: 72.8
+                    d546b11db434c741bc9181129fbb0ae9: !RescueDrone.ChangeTexture,RescueDrone
+                        Id: 1db146d5-34b4-41c7-bc91-81129fbb0ae9
+                        Material: 2b4a9174-b586-49bd-938e-485efc852360:robot/dummy1
+                        BackgroundTexture: 8f36cb9c-fc9f-4407-b39f-f4f0b979302f:robot/monitor
+                        TextureList:
+                            b1f44f9c0c89c592bb179e76e9403520:
+                                ChangeTime: 31.1
+                                ChangeType: 1
+                            6b3910e97297998b2608b6cef028b411:
+                                ChangeTime: 70.42
+                                ChangeType: 2
+                            df50f1256d024a3b3532c8d35dc51e8b:
+                                ChangeTime: 80.0
+                                ChangeType: 3
+                    e20b349d5c0ab146a95f454c688aa400: !RescueDrone.PlaySounds,RescueDrone
+                        Id: 9d340be2-0a5c-46b1-a95f-454c688aa400
+                        BackgroundMusic: 5841d29a-11d7-4522-b13a-1b500b36d749:Sounds/BackgroundMusic
+                        SoundEffects:
+                            403747d3ed5d5b840886f9ca18390784:
+                                PlayTime: 2.0
+                                Sound: null
+                            dbf27d248057184d999f092a1bcd64f9:
+                                PlayTime: 4.0
+                                Sound: null
+                        Enabled: true
+                    729b35267ea9a34bbc86d309055354c0: !ModelComponent
+                        Id: 26359b72-a97e-4ba3-bc86-d309055354c0
+                        Model: 3d68707b-e859-4eb4-94a3-41eff1ec8acf:robot/Pd_Robot Model
+                        Materials: {}
+        -   Entity:
+                Id: 46a51372-ed25-47b4-9a24-c717752ab3b9
+                Name: spotlight frefab (2)
+                Components:
+                    9b22d7db1a22348c40a6d01cd06ba5b1: !TransformComponent
+                        Id: c369612a-6aba-4975-819b-92ab5e89f7b9
+                        Position: {X: 1.7846738, Y: 4.189021, Z: -9.830532}
+                        Rotation: {X: 0.0, Y: -0.12877095, Z: 0.0, W: 0.99167436}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            449425550682cefafc3b319ccfb2f11a: ref!! ab2f3c7b-cee2-4b35-8012-7cd793bc273b
+        -   Entity:
+                Id: 4840f894-d90d-4cb4-a555-5fe8d488a152
+                Name: Spot light
+                Components:
+                    db792a458ab10085fbb8f526ff411484: !TransformComponent
+                        Id: 5140ce58-1f4f-49b8-9b2d-4d28377e5752
+                        Position: {X: -0.2479802, Y: -0.6006613, Z: 1.9955534}
+                        Rotation: {X: -0.5945088, Y: 0.04751757, Z: 0.08963739, W: 0.79766303}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cce3d18438974250799f66ef36562d88: !LightComponent
+                        Id: a7291d2a-35a0-446c-8414-a5c9cfcfb452
+                        Type: !LightSpot
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Range: 6.0
+                            AngleInner: 26.0
+                            AngleOuter: 80.0
+                            UVScale: {X: 1.0, Y: 1.0}
+                            UVOffset: {X: 0.0, Y: 0.0}
+                            Shadow:
+                                BiasParameters:
+                                    DepthBias: 0.001
+                        Intensity: 2.0
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: d5e4466e-5a07-4715-b01e-886bee386829
+                InstanceId: 50acfa16-f275-45a5-a641-64ec354ae7f6
+        -   Entity:
+                Id: 49740a05-fe8e-41d7-87df-74d125aaa055
+                Name: HeatBox
+                Components:
+                    669979de0717134491a138a8c84eedcd: !TransformComponent
+                        Id: de799966-1707-4413-91a1-38a8c84eedcd
+                        Position: {X: -0.7, Y: -0.06713735, Z: 6.451308E-16}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.8, Y: 1.0, Z: 0.8}
+                        Children: {}
+                    fc33783d30d14946b3623282527d29d0: !ModelNodeLinkComponent
+                        Id: 3d7833fc-d130-4649-b362-3282527d29d0
+                        Target: ref!! f0654919-e269-4204-8b8e-bc73dd99afac
+                        NodeName: Body_bone
+                    15de06b00eb5a4469a0a54ba186e2099: !ModelComponent
+                        Id: b006de15-b50e-46a4-9a0a-54ba186e2099
+                        Enabled: false
+                        Model: 7f9166ae-dc53-428a-af0c-a7fcda1d1e22:Heat/HeatModel
+                        IsShadowCaster: false
+                        Materials: {}
+        -   Entity:
+                Id: 4ccb7281-328a-4b67-9738-2c7c1f271e8f
+                Name: root
+                Components:
+                    269b684e52615805378ff3183d4e002e: !TransformComponent
+                        Id: ab2f3c7b-cee2-4b35-8012-7cd793bc278f
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3490181, Y: 0.3490181, Z: 0.3490181}
+                        Children:
+                            b14202cb5f811ce5a90f817fcc49e142: ref!! e9bc5861-c605-4edb-997e-7de60422eb99
+                            1029361e8474eb407da62b01ea94a85d: ref!! 0690c2fa-eb62-463b-b475-7d328218fd47
+                            fab09dedef6cd66e07b64eba5d97bcef: ref!! 303817a2-9bc3-4e36-aeae-afe86ffa967c
+                            377e856141d44a817d9ee8a5eabc535a: ref!! 891bf939-9a91-48a9-927a-e52197668d19
+                            dddf818f7a1efd37616e91c8426346ba: ref!! 9386b70d-b86a-492a-a35c-b48093fd6d31
+                            8f0fe34e25dd901b17ea94a331c7bf48: ref!! 5140ce58-1f4f-49b8-9b2d-4d28377e57b2
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 95a58b6b-9ac8-4877-8779-11edf39669f4
+                InstanceId: 69396953-fbb6-4265-8fbe-61a7cc90cc6b
+        -   Entity:
+                Id: 5234dfaa-12a2-4352-9eb1-ceb1e8bfe04e
+                Name: Directional light
+                Components:
+                    1136e12d0b4a924ea5549182f3877526: !TransformComponent
+                        Id: 2de13611-4a0b-4e92-a554-9182f3877526
+                        Position: {X: 0.0, Y: 4.356379, Z: 0.0}
+                        Rotation: {X: 0.12217249, Y: -0.2745123, Z: 0.0140234, W: -0.9536881}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    74abfd6642e7bf4b8d4fb1475f5c9796: !LightComponent
+                        Id: 66fdab74-e742-4bbf-8d4f-b1475f5c9796
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 0.9, G: 0.8722768, B: 0.770625}
+                            Shadow:
+                                Enabled: true
+                                Filter: !LightShadowMapFilterTypePcf
+                                    FilterSize: Filter5x5
+                                Size: XLarge
+                                DepthRange:
+                                    ManualMaxDistance: 70.0
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic
+                                    PSSMFactor: 0.56
+                                ComputeTransmittance: false
+                                BiasParameters: {}
+                        Intensity: 0.05
+        -   Entity:
+                Id: 5c8e870b-1873-4a86-9921-643692bb5f99
+                Name: Sphere
+                Components:
+                    3c5d3f59df45ca6305ea6b3310bf1ee5: !TransformComponent
+                        Id: e9bc5861-c605-4edb-997e-7de60422eb99
+                        Position: {X: -0.24457684, Y: -0.5189742, Z: 1.9891199}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.64171624, Y: 0.64171624, Z: 0.64171624}
+                        Children: {}
+                    a4dacd0a98b88ec46459b2158ad5e122: !ModelComponent
+                        Id: d8b33f4c-cbd4-4709-9f15-0a8e8c216a99
+                        Model: 26fa4a6b-5c7a-48ae-8c5b-36f9fd38e445:Sphere
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: fd956f94-1297-4e0b-b74f-43664bf99c8d
+                InstanceId: 69396953-fbb6-4265-8fbe-61a7cc90cc6b
+        -   Entity:
+                Id: 5fc5d331-0e2b-48a5-a245-872667564d3c
+                Name: '[model]Background'
+                Components:
+                    6c72d90e456c01428570169a30f081be: !TransformComponent
+                        Id: 0ed9726c-6c45-4201-8570-169a30f081be
+                        Position: {X: 0.522, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: -0.11471319, Z: 0.0, W: 0.99339867}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    2228f47ef7181341af9b9445a68cf65d: !ModelComponent
+                        Id: 7ef42822-18f7-4113-af9b-9445a68cf65d
+                        Model: a4095d5e-b9eb-4a2a-9c70-d89a74f80334:Background/[model]Background
+                        Materials: {}
+        -   Entity:
+                Id: 666e257e-b5d7-438c-9842-7048bb93b3e7
+                Name: Skybox light
+                Components:
+                    00d78af78211a94194d2c5b0f428367a: !TransformComponent
+                        Id: f78ad700-1182-41a9-94d2-c5b0f428367a
+                        Position: {X: 0.6005932, Y: -0.7702026, Z: 1.0402578}
+                        Rotation: {X: 0.0, Y: 0.86602545, Z: 0.0, W: 0.49999997}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    43515655677d724980731146048e6311: !LightComponent
+                        Id: 55565143-7d67-4972-8073-1146048e6311
+                        Type: !LightSkybox
+                            Skybox: a3aa6f50-64af-407d-851c-1d87e705a0c9:EnvMap/Skybox
+                        Intensity: 0.5
+                    4b9d83fcf434414fa15f9eb36d2ef117: !BackgroundComponent
+                        Id: 55ffb6c4-a481-4fdc-b927-6365cdc3b737
+                        Texture: dea4033f-7936-45f0-9909-6945edf401b5:EnvMap/YK_OOSANBASI_cross_deep
+        -   Entity:
+                Id: 7699b569-3928-42f9-9dee-df31ddaadc47
+                Name: Cone
+                Components:
+                    70ff1be96c2d3af3d4a10244f5a69710: !TransformComponent
+                        Id: 0690c2fa-eb62-463b-b475-7d328218fd47
+                        Position: {X: -0.25437298, Y: -0.021686792, Z: 1.9871873}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9daad109a42b062e58817adc70a9a63f: !ModelComponent
+                        Id: 0a08accb-54a6-4b52-aa35-c445119f1547
+                        Model: 20899e05-dc7c-4172-b55e-10c3d921609b:Cone
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 59f9554e-a90c-4ee3-9ece-67d0c9877434
+                InstanceId: 69396953-fbb6-4265-8fbe-61a7cc90cc6b
+        -   Entity:
+                Id: 797cac5b-a4d0-4d26-90cd-36e9aba069d5
+                Name: CameraAnim
+                Components:
+                    d3e92a400bbce1468185ebf6dad3d07b: !TransformComponent
+                        Id: 402ae9d3-bc0b-46e1-8185-ebf6dad3d07b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            4693c92be30d90864d431e39308266fb: ref!! b765abec-d822-41d2-8462-57c4981b8ab9
+                            69c6130c810cd5d76b545e7387587af4: ref!! 9c1d57bc-dc2b-470d-8e0e-caeb61b7a752
+                    368da488d8c89e4a8a63158cfc9a4045: !AnimationComponent
+                        Id: 88a48d36-c8d8-4a9e-8a63-158cfc9a4045
+                        Animations:
+                            ceeb338a17648f48b6ffdc570edde06a~anim_cam: 22d5f013-3705-483d-a97f-659e2264b0a5:Camera/CAM01 Animation
+                    b4b629b0d28f5f45a9aa57c3c9668b2d: !RescueDrone.PlayAnimation,RescueDrone
+                        Id: b029b6b4-8fd2-455f-a9aa-57c3c9668b2d
+                        AnimationName: anim_cam
+                    1be1ccb006ff7044a9ce1135bd9435b4: !ModelComponent
+                        Id: b0cce11b-ff06-4470-a9ce-1135bd9435b4
+                        Model: 6735b7c8-d2d9-4e1d-8fea-7fa1a6256e1a:Camera/CAM01
+                        Materials: {}
+        -   Entity:
+                Id: 7a8c09c9-db27-4fe3-bfac-fe7de330aa67
+                Name: Cylinder
+                Components:
+                    055a074de5346ba952fbe1608e6a4c58: !TransformComponent
+                        Id: 303817a2-9bc3-4e36-aeae-afe86ffa9667
+                        Position: {X: -0.25328627, Y: 0.31180596, Z: 1.9871873}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3328337, Y: 0.46445063, Z: 0.3328337}
+                        Children: {}
+                    9c3decda2f6c3c501b5d2ce8e2a55a40: !ModelComponent
+                        Id: bcf84591-a0ef-4065-afae-f878b8b22b67
+                        Model: 67d5ce3d-66d4-4318-805d-49076bacb514:Cylinder
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: d58dc3e8-8ed2-4951-bcb3-a407530538f5
+                InstanceId: 7293f512-10d6-48c4-a83a-a390fa415036
+        -   Entity:
+                Id: 82641b1b-98e2-4080-bab9-1a5857a59147
+                Name: root
+                Components:
+                    269b684e52615805378ff3183d4e002e: !TransformComponent
+                        Id: ab2f3c7b-cee2-4b35-8012-7cd793bc2747
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3490181, Y: 0.3490181, Z: 0.3490181}
+                        Children:
+                            5d978412ff30f42e51686e22a4d6810b: ref!! e9bc5861-c605-4edb-997e-7de60422eb39
+                            a1807f99fc591d5e8317a63aeda2ec8c: ref!! 0690c2fa-eb62-463b-b475-7d328218fdda
+                            69748f6f03556d0f6b6f76d1ce454bfa: ref!! 303817a2-9bc3-4e36-aeae-afe86ffa9667
+                            5ff99ccc881178601a2f88d4ae09664d: ref!! 891bf939-9a91-48a9-927a-e52197668dd3
+                            80254ec3ece91b45ae1dd96dbe2d1961: ref!! 9386b70d-b86a-492a-a35c-b48093fd6d7f
+                            4f5f3178197481461796b1dc658c75b8: ref!! 5140ce58-1f4f-49b8-9b2d-4d28377e57e7
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 95a58b6b-9ac8-4877-8779-11edf39669f4
+                InstanceId: 7293f512-10d6-48c4-a83a-a390fa415036
+        -   Entity:
+                Id: 8bf7f0af-6cee-48b9-8c24-0c13901807e8
+                Name: '[model]pipe'
+                Components:
+                    00d5b5f1af63ae4390ea50a393b5ba3a: !TransformComponent
+                        Id: f1b5d500-63af-43ae-90ea-50a393b5ba3a
+                        Position: {X: 0.52248806, Y: 4.7683716E-07, Z: 2.7067299E-05}
+                        Rotation: {X: 0.0, Y: -0.11471319, Z: 0.0, W: 0.99339867}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    bc49514f3cfa1e42a2d4fa878e14548c: !ModelComponent
+                        Id: 4f5149bc-fa3c-421e-a2d4-fa878e14548c
+                        Model: 3b3c7883-71d3-44d4-90a4-a87136965a36:objects/[model]pipe
+                        Materials: {}
+        -   Entity:
+                Id: 8d303f79-2028-4229-b3bb-5e013875ee7f
+                Name: Cylinder (2)
+                Components:
+                    c15d622b7dc243aed4763c47234b11cb: !TransformComponent
+                        Id: 9386b70d-b86a-492a-a35c-b48093fd6d7f
+                        Position: {X: -0.25317755, Y: 0.55921996, Z: 1.0237377}
+                        Rotation: {X: -0.71203035, Y: 0.0, Z: 0.0, W: 0.7021487}
+                        Scale: {X: 0.32522956, Y: 1.9174386, Z: 0.32522956}
+                        Children: {}
+                    05b916bb8db0f5dd0535e01f0d2bdc2d: !ModelComponent
+                        Id: 94c7a67c-eb74-4394-b949-8a474d906e7f
+                        Model: 67d5ce3d-66d4-4318-805d-49076bacb514:Cylinder
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 8b4d9d05-fed7-4a98-ab2f-989ff63c6e28
+                InstanceId: 7293f512-10d6-48c4-a83a-a390fa415036
+        -   Entity:
+                Id: 9e031246-d558-4844-9779-522b046e70ef
+                Name: Cylinder
+                Components:
+                    055a074de5346ba952fbe1608e6a4c58: !TransformComponent
+                        Id: 303817a2-9bc3-4e36-aeae-afe86ffa96ef
+                        Position: {X: -0.25328627, Y: 0.31180596, Z: 1.9871873}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3328337, Y: 0.46445063, Z: 0.3328337}
+                        Children: {}
+                    9c3decda2f6c3c501b5d2ce8e2a55a40: !ModelComponent
+                        Id: bcf84591-a0ef-4065-afae-f878b8b22bef
+                        Model: 67d5ce3d-66d4-4318-805d-49076bacb514:Cylinder
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: d58dc3e8-8ed2-4951-bcb3-a407530538f5
+                InstanceId: 50acfa16-f275-45a5-a641-64ec354ae7f6
+        -   Entity:
+                Id: a388b2f6-497d-453c-8537-fb520a58ba6b
+                Name: Cone
+                Components:
+                    70ff1be96c2d3af3d4a10244f5a69710: !TransformComponent
+                        Id: 0690c2fa-eb62-463b-b475-7d328218fd6b
+                        Position: {X: -0.25437298, Y: -0.021686792, Z: 1.9871873}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9daad109a42b062e58817adc70a9a63f: !ModelComponent
+                        Id: 0a08accb-54a6-4b52-aa35-c445119f156b
+                        Model: 20899e05-dc7c-4172-b55e-10c3d921609b:Cone
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 59f9554e-a90c-4ee3-9ece-67d0c9877434
+                InstanceId: 50acfa16-f275-45a5-a641-64ec354ae7f6
+        -   Entity:
+                Id: b0353ff2-7b1d-49aa-8d38-f25cdc7e99da
+                Name: Cone
+                Components:
+                    70ff1be96c2d3af3d4a10244f5a69710: !TransformComponent
+                        Id: 0690c2fa-eb62-463b-b475-7d328218fdda
+                        Position: {X: -0.25437298, Y: -0.021686792, Z: 1.9871873}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9daad109a42b062e58817adc70a9a63f: !ModelComponent
+                        Id: 0a08accb-54a6-4b52-aa35-c445119f15da
+                        Model: 20899e05-dc7c-4172-b55e-10c3d921609b:Cone
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 59f9554e-a90c-4ee3-9ece-67d0c9877434
+                InstanceId: 7293f512-10d6-48c4-a83a-a390fa415036
+        -   Entity:
+                Id: b87581df-9276-49f1-8c5a-552c3e9a376a
+                Name: '[model]plant2'
+                Components:
+                    505c60e4e7cb3c49a67d1307e1b649e9: !TransformComponent
+                        Id: e4605c50-cbe7-493c-a67d-1307e1b649e9
+                        Position: {X: 0.522, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: -0.114711754, Z: 0.0, W: 0.99339885}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    11181bac7f11e04897ff2054af8ed2db: !ModelComponent
+                        Id: ac1b1811-117f-48e0-97ff-2054af8ed2db
+                        Model: 23169edb-67d6-4029-87b4-0db8d97f0bbf:objects/[model]plant2
+                        Materials:
+                            108b72db2ea93741aa3e3a024f4dacbc~0: e5ff4d73-4e69-4923-b112-dbf0fc4c5c02:objects/plant0_1
+        -   Entity:
+                Id: bb5303fd-8ace-4875-a62a-8e4909fbae19
+                Name: GeoSphere
+                Components:
+                    a67be769630bfc99dd73fb497c6267f0: !TransformComponent
+                        Id: 891bf939-9a91-48a9-927a-e52197668d19
+                        Position: {X: -0.25299683, Y: 0.56052667, Z: 1.9871873}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3343757, Y: 0.3343757, Z: 0.3343757}
+                        Children: {}
+                    1645abfcf1de9eed7892b4bc0e25a027: !ModelComponent
+                        Id: f720c087-7e4d-4806-9e2f-4740868fe519
+                        Model: 837af0fa-89a8-40b3-ae74-66c8df0d849f:GeoSphere
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 4c49aef3-4523-494f-911f-d18c83fd22cc
+                InstanceId: 69396953-fbb6-4265-8fbe-61a7cc90cc6b
+        -   Entity:
+                Id: bbdffaeb-3087-46db-bb7f-59e0f18f2e31
+                Name: Cylinder (2)
+                Components:
+                    c15d622b7dc243aed4763c47234b11cb: !TransformComponent
+                        Id: 9386b70d-b86a-492a-a35c-b48093fd6d31
+                        Position: {X: -0.25317755, Y: 0.55921996, Z: 1.0237377}
+                        Rotation: {X: -0.71203035, Y: 0.0, Z: 0.0, W: 0.7021487}
+                        Scale: {X: 0.32522956, Y: 1.9174386, Z: 0.32522956}
+                        Children: {}
+                    05b916bb8db0f5dd0535e01f0d2bdc2d: !ModelComponent
+                        Id: 94c7a67c-eb74-4394-b949-8a474d906e31
+                        Model: 67d5ce3d-66d4-4318-805d-49076bacb514:Cylinder
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 8b4d9d05-fed7-4a98-ab2f-989ff63c6e28
+                InstanceId: 69396953-fbb6-4265-8fbe-61a7cc90cc6b
+        -   Entity:
+                Id: bc2b2e6e-dc18-4baa-b887-e2cd0eec8d3b
+                Name: root
+                Components:
+                    269b684e52615805378ff3183d4e002e: !TransformComponent
+                        Id: ab2f3c7b-cee2-4b35-8012-7cd793bc273b
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3490181, Y: 0.3490181, Z: 0.3490181}
+                        Children:
+                            5d978412ff30f42e51686e22a4d6810b: ref!! e9bc5861-c605-4edb-997e-7de60422ebf0
+                            a1807f99fc591d5e8317a63aeda2ec8c: ref!! 0690c2fa-eb62-463b-b475-7d328218fd6b
+                            69748f6f03556d0f6b6f76d1ce454bfa: ref!! 303817a2-9bc3-4e36-aeae-afe86ffa96ef
+                            5ff99ccc881178601a2f88d4ae09664d: ref!! 891bf939-9a91-48a9-927a-e52197668d9a
+                            80254ec3ece91b45ae1dd96dbe2d1961: ref!! 9386b70d-b86a-492a-a35c-b48093fd6d57
+                            81f551fe22711d3a90acb4dcc0a2b140: ref!! 5140ce58-1f4f-49b8-9b2d-4d28377e5752
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 95a58b6b-9ac8-4877-8779-11edf39669f4
+                InstanceId: 50acfa16-f275-45a5-a641-64ec354ae7f6
+        -   Entity:
+                Id: dc502027-b754-4ab6-9773-a5015a2ca4e7
+                Name: Spot light
+                Components:
+                    db792a458ab10085fbb8f526ff411484: !TransformComponent
+                        Id: 5140ce58-1f4f-49b8-9b2d-4d28377e57e7
+                        Position: {X: -0.2479802, Y: -0.6006613, Z: 1.9955534}
+                        Rotation: {X: -0.5945088, Y: 0.04751757, Z: 0.08963739, W: 0.79766303}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cce3d18438974250799f66ef36562d88: !LightComponent
+                        Id: a7291d2a-35a0-446c-8414-a5c9cfcfb4e7
+                        Type: !LightSpot
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Range: 6.0
+                            AngleInner: 26.0
+                            AngleOuter: 80.0
+                            UVScale: {X: 1.0, Y: 1.0}
+                            UVOffset: {X: 0.0, Y: 0.0}
+                            Shadow:
+                                BiasParameters:
+                                    DepthBias: 0.001
+                        Intensity: 2.0
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: d5e4466e-5a07-4715-b01e-886bee386829
+                InstanceId: 7293f512-10d6-48c4-a83a-a390fa415036
+        -   Entity:
+                Id: dfda5418-3ca6-427d-b13e-66f4a8f8b3bc
+                Name: '[model]obj'
+                Components:
+                    eef555c7ce77e54585e954ba45c23a9a: !TransformComponent
+                        Id: c755f5ee-77ce-45e5-85e9-54ba45c23a9a
+                        Position: {X: 0.52248806, Y: 0.0, Z: 2.7067299E-05}
+                        Rotation: {X: 0.0, Y: -0.11471319, Z: 0.0, W: 0.99339867}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    9f2055b1e7b6554dbb1552c921e7bc06: !AnimationComponent
+                        Id: b155209f-b6e7-4d55-bb15-52c921e7bc06
+                        Animations:
+                            7295af89d46bcf48ad41fbfec6526f27~plant: 096bac9e-8e28-4274-8219-1da1ed06d97b:objects/[model]obj Animation
+                    0ae771118de16044be0ba871198f240d: !RescueDrone.PlayAnimation,RescueDrone
+                        Id: 1171e70a-e18d-4460-be0b-a871198f240d
+                        AnimationName: plant
+                    241083d960433643b881479d64240a0b: !ModelComponent
+                        Id: d9831024-4360-4336-b881-479d64240a0b
+                        Model: f52af1c8-3f32-47a4-b479-010979d39a78:objects/[model]obj
+                        Materials: {}
+        -   Entity:
+                Id: e94dc69d-7d69-4a58-8bd8-5cd4aec42457
+                Name: Cylinder (2)
+                Components:
+                    c15d622b7dc243aed4763c47234b11cb: !TransformComponent
+                        Id: 9386b70d-b86a-492a-a35c-b48093fd6d57
+                        Position: {X: -0.25317755, Y: 0.55921996, Z: 1.0237377}
+                        Rotation: {X: -0.71203035, Y: 0.0, Z: 0.0, W: 0.7021487}
+                        Scale: {X: 0.32522956, Y: 1.9174386, Z: 0.32522956}
+                        Children: {}
+                    05b916bb8db0f5dd0535e01f0d2bdc2d: !ModelComponent
+                        Id: 94c7a67c-eb74-4394-b949-8a474d906e57
+                        Model: 67d5ce3d-66d4-4318-805d-49076bacb514:Cylinder
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 8b4d9d05-fed7-4a98-ab2f-989ff63c6e28
+                InstanceId: 50acfa16-f275-45a5-a641-64ec354ae7f6
+        -   Entity:
+                Id: ea02ceee-9288-4968-b85b-aa073e3673b2
+                Name: Spot light
+                Components:
+                    db792a458ab10085fbb8f526ff411484: !TransformComponent
+                        Id: 5140ce58-1f4f-49b8-9b2d-4d28377e57b2
+                        Position: {X: -0.2479802, Y: -0.6006613, Z: 1.9955534}
+                        Rotation: {X: -0.5945088, Y: 0.04751757, Z: 0.08963739, W: 0.79766303}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cce3d18438974250799f66ef36562d88: !LightComponent
+                        Id: a7291d2a-35a0-446c-8414-a5c9cfcfb4b2
+                        Type: !LightSpot
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Range: 6.0
+                            AngleInner: 26.0
+                            AngleOuter: 80.0
+                            UVScale: {X: 1.0, Y: 1.0}
+                            UVOffset: {X: 0.0, Y: 0.0}
+                            Shadow:
+                                BiasParameters:
+                                    DepthBias: 0.001
+                        Intensity: 2.0
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: d5e4466e-5a07-4715-b01e-886bee386829
+                InstanceId: 69396953-fbb6-4265-8fbe-61a7cc90cc6b
+        -   Entity:
+                Id: efdc3826-1d82-4f6c-b5aa-3f97ff669528
+                Name: FreeCamera
+                Components:
+                    93164e93df6bf147b12d8f457a31368d: !TransformComponent
+                        Id: 934e1693-6bdf-47f1-b12d-8f457a31368d
+                        Position: {X: -1.1313612, Y: 1.8888907, Z: 4.0286036}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    5026a86fe299514fa70732b776b120ed: !RescueDrone.FreeCamera,RescueDrone
+                        Id: 6fa82650-99e2-4f51-a707-32b776b120ed
+                        Component: ref!! b621c7f8-daf4-4915-8d2e-c957b20a8d7e
+                        MoveSpeed: 3.0
+                        RotationSpeed: 2.355
+                        MouseMoveSpeedFactor: 100.0
+                        MouseWheelZoomSpeedFactor: 0.1
+                        RotationAdaptationSpeed: 5.0
+                    f8c721b6f4da15498d2ec957b20a8d7e: !CameraComponent
+                        Id: b621c7f8-daf4-4915-8d2e-c957b20a8d7e
+                        Enabled: false
+                        Name: null
+                        Projection: Perspective
+                        Slot: d0a6bf72-b3cd-4bd4-94ca-69952999d537
+                    5aab675fe8e8fb48a16d57672345de39: !RescueDrone.CameraScript,RescueDrone
+                        Id: 5f67ab5a-e8e8-48fb-a16d-57672345de39
+                        TrackingCamera: ref!! 385ea07a-82ae-4e84-a3cf-2227fa50d4f5
+                        FreeCamera: ref!! b621c7f8-daf4-4915-8d2e-c957b20a8d7e
+                        AdaptDOF: ref!! 712d1e34-15d2-4cac-be4d-c99a9978bd33
+        -   Entity:
+                Id: f8472d8b-f5aa-4938-8958-c788c68227b0
+                Name: spotlight frefab
+                Components:
+                    c952ef1e464f2e02eb311b00a8d2c3d1: !TransformComponent
+                        Id: f8cac97b-5a48-41f0-9e07-24551a938f63
+                        Position: {X: 1.4043565, Y: 4.417794, Z: -16.583708}
+                        Rotation: {X: 0.0, Y: -0.80098933, Z: 0.0, W: 0.59867865}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            1c0f70433c532a869311fab5f54789b3: ref!! ab2f3c7b-cee2-4b35-8012-7cd793bc278f
+        -   Entity:
+                Id: f8c543f9-52c4-41fb-9a80-43411b2678f2
+                Name: '[model]Chair0'
+                Components:
+                    3d9c917f2f402c4db5fc98b479835298: !TransformComponent
+                        Id: 7f919c3d-402f-4d2c-b5fc-98b479835298
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c9b6fdb3c456034e9d65d890f6d685b0: !ModelComponent
+                        Id: b3fdb6c9-56c4-4e03-9d65-d890f6d685b0
+                        Model: 6813086f-0b79-434e-bcc8-fdb629af28c3:chair/[model]Chair0
+                        Materials: {}
+        -   Entity:
+                Id: faad1b81-ef2c-4edc-b099-f4025592bdfe
+                Name: GameTime
+                Components:
+                    7f8ad53af4cddf44b286eca8c46b521d: !TransformComponent
+                        Id: 3ad58a7f-cdf4-44df-b286-eca8c46b521d
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    c66e945c13370140b9c26b67db382631: !RescueDrone.GameTimeScript,RescueDrone
+                        Id: 5c946ec6-3713-4001-b9c2-6b67db382631
+                        DisplayTime: false
+        -   Entity:
+                Id: fde34d08-1758-47b2-a572-4d0005839ed3
+                Name: GeoSphere
+                Components:
+                    a67be769630bfc99dd73fb497c6267f0: !TransformComponent
+                        Id: 891bf939-9a91-48a9-927a-e52197668dd3
+                        Position: {X: -0.25299683, Y: 0.56052667, Z: 1.9871873}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.3343757, Y: 0.3343757, Z: 0.3343757}
+                        Children: {}
+                    1645abfcf1de9eed7892b4bc0e25a027: !ModelComponent
+                        Id: f720c087-7e4d-4806-9e2f-4740868fe5d3
+                        Model: 837af0fa-89a8-40b3-ae74-66c8df0d849f:GeoSphere
+                        Materials: {}
+            Base:
+                BasePartAsset: 78a15c13-aade-4550-a56f-36f84bdecb30:spotlight frefab
+                BasePartId: 4c49aef3-4523-494f-911f-d18c83fd22cc
+                InstanceId: 7293f512-10d6-48c4-a83a-a390fa415036

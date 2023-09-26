@@ -1,0 +1,14 @@
+!SpriteFont
+Id: 299c006d-c4bc-440c-9777-9c0e716310c1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+FontSource: !SystemFontProvider
+    FontName: Cambria
+    Style: Regular
+FontType: !OfflineRasterizedSpriteFontType
+    Size: 93.33333
+    CharacterSet: null
+    CharacterRegions:
+        0629eaee8dbb4348a061fff9b2aa0388:
+            Start: ' '
+            End: ':'

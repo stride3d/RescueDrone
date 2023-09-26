@@ -1,0 +1,7 @@
+!Texture
+Id: d5b947e0-1f4f-456e-996c-1873863377d3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/Soil0_cav.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

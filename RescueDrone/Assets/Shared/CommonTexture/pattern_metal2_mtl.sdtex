@@ -1,0 +1,8 @@
+!Texture
+Id: 870fde3d-98ee-4067-bf67-a027b53d33bf
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/pattern_metal2_mtl.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

@@ -1,0 +1,7 @@
+!Texture
+Id: 11bc6e0a-d63c-4f90-a1f4-f636806656a8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/rust0_gls.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

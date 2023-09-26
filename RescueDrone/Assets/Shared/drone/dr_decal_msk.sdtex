@@ -1,0 +1,7 @@
+!Texture
+Id: 568e93e0-f54b-477e-ad78-039e122eb719
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/drone/dr_decal_msk.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

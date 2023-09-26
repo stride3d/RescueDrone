@@ -1,0 +1,7 @@
+!Texture
+Id: 3038d544-27b7-4a29-a124-a8a6a0f436b5
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/wood0_gls.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

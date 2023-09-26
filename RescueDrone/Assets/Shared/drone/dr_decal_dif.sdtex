@@ -1,0 +1,9 @@
+!Texture
+Id: af154dea-0a03-4a69-8727-a3ad0059135f
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/drone/dr_decal_dif.png
+IsCompressed: false
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

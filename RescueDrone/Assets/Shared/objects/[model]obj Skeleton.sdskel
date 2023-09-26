@@ -1,0 +1,75 @@
+!Skeleton
+Id: 1b42820b-3542-4bad-9e66-247fb32b0ea5
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]obj.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    2b83a4a0d5dde6216f7c2fe8b32bbfe2: {Name: RootNode, Depth: 0}
+    5c4c3c78678b6c0dc18be2ffcd3e21d3: {Name: root_obj, Depth: 1}
+    fb9e3a9c710661cd94a5be7db1cc201d: {Name: duct009, Depth: 2}
+    4ed45a6b70dbfdf8ce10c78a9e0b2849: {Name: "オブジェクト056", Depth: 2}
+    7f3965fd42f838e431b28a05839bf5dc: {Name: "オブジェクト046", Depth: 2}
+    1e07d7100e8356943c02e517257cfea8: {Name: "オブジェクト047", Depth: 2}
+    1ba89c196908e94b01f48be5077c9c93: {Name: "オブジェクト051", Depth: 2}
+    33f229db4a0a713f847f89f85b4b2110: {Name: "オブジェクト022", Depth: 2}
+    1370c7e6c0762c2cb6aa1795ab56072d: {Name: "オブジェクト023", Depth: 2}
+    a49505754137bfa58e47b7e74ac17b20: {Name: "オブジェクト024", Depth: 2}
+    99d5ecd4c21dba42a2f503e90337f002: {Name: "オブジェクト025", Depth: 2}
+    a960be4f09c636c4d30a1301a43171aa: {Name: "オブジェクト026", Depth: 2}
+    cc35a6804100250e80afdb56e651571c: {Name: "オブジェクト032", Depth: 2}
+    c04f2ef88343cac8fc01a2efa406e698: {Name: "オブジェクト033", Depth: 2}
+    4997f0dc73a0fe498e901d471d62d86c: {Name: "オブジェクト034", Depth: 2}
+    df3ff34836059058afc14e8dc951eb4a: {Name: "オブジェクト035", Depth: 2}
+    3026587877f3e75e8bab2a855ce9487a: {Name: "オブジェクト036", Depth: 2}
+    2ea014f68da973b300c852e081806bd8: {Name: "オブジェクト040", Depth: 2}
+    6d2163cbd8c8106945339543bcee3ca8: {Name: "オブジェクト041", Depth: 2}
+    a75fe6b17d59e6425e31de8d9bec3a90: {Name: "オブジェクト013", Depth: 2}
+    bac8705ec6c6ad01628388da6e3adbbb: {Name: "オブジェクト014", Depth: 2}
+    bf9ba084ab454a3ca74cbc9af137561b: {Name: "オブジェクト016", Depth: 2}
+    30db83d6bbe282e6411655eb6651e725: {Name: "オブジェクト017", Depth: 2}
+    d4f38c11918a6da6537f1f138b36289e: {Name: "オブジェクト018", Depth: 2}
+    98b76e01436452e7d0c5e8a4f0bbde8a: {Name: "オブジェクト019", Depth: 2}
+    a0cdc52e402e8d8461ae4f106877aa04: {Name: "オブジェクト058", Depth: 2}
+    9181613a692058df9aae80cdfe2e1b39: {Name: "オブジェクト059", Depth: 2}
+    5964f25e77e745514680fee6a5cc0333: {Name: "オブジェクト027", Depth: 2}
+    2311a28aeebcfd84935495e0116014bd: {Name: Ground_Debris, Depth: 2}
+    b0f6fc412b9b4ef3182b1c889196b560: {Name: Ground_Debris004, Depth: 2}
+    026bbe76dd8d41ebbe1ce77b3d8e58a2: {Name: Ground_Debris003, Depth: 2}
+    630ef0d9aac3c3c3b584bd17bcbaa213: {Name: Ground_Debris001, Depth: 2}
+    9c0b2ddd955e77b1f0d32d7074411e53: {Name: "オブジェクト031", Depth: 2}
+    414c62518c93db7e547f981057c8ad4d: {Name: "オブジェクト030", Depth: 2}
+    510cce39286cea0cd680d57dcd38a531: {Name: "オブジェクト020", Depth: 2}
+    e483004fcfd3983eafe5f67886635b50: {Name: "オブジェクト021", Depth: 2}
+    6f6c8b98672ae4a21adc183f8c0e33ea: {Name: "オブジェクト029", Depth: 2}
+    058942a204357076ed905c84cc79c6ae: {Name: "オブジェクト028", Depth: 2}
+    5de6138d150e08902efc797634354e65: {Name: "オブジェクト057", Depth: 2}
+    e999d25fd2c265c3f17d2f2d8df3e5f3: {Name: "オブジェクト007", Depth: 2}
+    e39718ac3dc218f4f21c950ed1e4b28f: {Name: Ground_Debris002, Depth: 2}
+    8174cfe90ae4aae7326c52a11d8dc907: {Name: duct008, Depth: 2}
+    be7f6057946666ecc7e46dfd420fac47: {Name: "オブジェクト005", Depth: 2}
+    dcbd1e21fdc4376dbc4e566fe8b3676a: {Name: "オブジェクト006", Depth: 2}
+    49e91293a148d7ef108f3a4f02c88d38: {Name: "オブジェクト012", Depth: 2}
+    702450240cb21a21b744084e0887d784: {Name: "オブジェクト010", Depth: 2}
+    111b27277c6abad6a38c1ef90f31ff98: {Name: "オブジェクト011", Depth: 2}
+    515a75bb8171203ec9217e8edad0968d: {Name: "オブジェクト015", Depth: 2}
+    1bd70b8c9bff5a42eb37f05f6c8c6128: {Name: "オブジェクト037", Depth: 2}
+    9ad9626877548a528ee8a295903fa84d: {Name: "オブジェクト038", Depth: 2}
+    7dae7d51926626cbe2ea2c9b4ef037b7: {Name: "オブジェクト060", Depth: 2}
+    04df540c40f46b90eb8b4f7126210aef: {Name: "オブジェクト061", Depth: 2}
+    4b37096a83e06a03317885112fee7fe4: {Name: "オブジェクト062", Depth: 2}
+    e3bcba4a25e793e3b3a7c57146549d6a: {Name: "オブジェクト063", Depth: 2}
+    368437262c02a3363658d835236116de: {Name: "オブジェクト064", Depth: 2}
+    875676c9b4ee495e48e2f496f4e4ea13: {Name: "オブジェクト065", Depth: 2}
+    90f71a53a412b0539b3aaeaae16666b1: {Name: "オブジェクト066", Depth: 2}
+    2e15897e6181b1391daab8063c95f4bd: {Name: "オブジェクト067", Depth: 2}
+    6c5c43b0ac92c9b714c6e1f6da04ebbe: {Name: "オブジェクト068", Depth: 2}
+    d85cc4234168d36e88c211374e8ed985: {Name: "オブジェクト069", Depth: 2}
+    3bc33cc7e06c7519e3faa8519e5980f2: {Name: "オブジェクト070", Depth: 2}
+    3e6015cbe362f867794a64ea422407e8: {Name: "オブジェクト071", Depth: 2}
+    ca1b5c3a0627f9937b0f11cb0d51e986: {Name: "オブジェクト072", Depth: 2}
+    1b12317f6294356807e46ba3956a2873: {Name: "オブジェクト073", Depth: 2}
+    5f5321e6f520fd988140265b7bee4be8: {Name: "オブジェクト074", Depth: 2}
+    4187efe557853d463bccd87f80fe2259: {Name: "オブジェクト075", Depth: 2}
+~SourceHashes:
+    4dafdc8d50bb2304ff30e00658edd994~../../../RawAssets/sci-fi/Chair/[model]obj.FBX: bee1b5287f0bb82988d056601145b28c

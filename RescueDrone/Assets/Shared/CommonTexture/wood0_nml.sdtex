@@ -1,0 +1,6 @@
+!Texture
+Id: a935e20e-ba91-4f84-9dfb-c01e6a055974
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/wood0_nml.png
+Type: !NormalMapTextureType {}

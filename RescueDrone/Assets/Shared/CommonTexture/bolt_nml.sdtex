@@ -1,0 +1,6 @@
+!Texture
+Id: 8b46ba95-254a-4123-bf42-13ddfd425b03
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/bolt_nml.jpg
+Type: !NormalMapTextureType {}

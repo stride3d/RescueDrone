@@ -1,0 +1,7 @@
+!Sound
+Id: 5841d29a-11d7-4522-b13a-1b500b36d749
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/Sounds/BGM.wav
+StreamFromDisk: true
+Spatialized: false

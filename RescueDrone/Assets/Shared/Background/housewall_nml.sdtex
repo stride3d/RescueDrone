@@ -1,0 +1,7 @@
+!Texture
+Id: 43571e45-7a4f-4e3f-a7b1-d18faba98136
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/housewall_nml.png
+IsCompressed: false
+Type: !NormalMapTextureType {}

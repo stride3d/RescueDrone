@@ -1,0 +1,7 @@
+!Texture
+Id: daf73069-c811-49d5-a222-f4e11ea39442
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/ground0_nml.png
+IsCompressed: false
+Type: !NormalMapTextureType {}

@@ -1,0 +1,12 @@
+Bin
+obj
+*.user
+*.suo
+*.db
+log
+routerlog.txt
+*.lock
+Thumbs.db
+log/
+.vs/
+Cache/

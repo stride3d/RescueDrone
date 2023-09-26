@@ -1,0 +1,7 @@
+!Texture
+Id: 4866f090-d7de-4e82-a43b-d607773946ed
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/drone/drone_ao.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

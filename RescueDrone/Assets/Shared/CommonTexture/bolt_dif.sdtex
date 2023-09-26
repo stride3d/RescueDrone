@@ -1,0 +1,8 @@
+!Texture
+Id: 2aed4100-54af-41d8-9c77-18eb4bb20bbe
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/bolt_dif.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

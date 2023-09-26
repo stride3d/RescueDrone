@@ -1,0 +1,8 @@
+!Texture
+Id: b063a80f-0ba7-4793-b7bd-3d322d094e53
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/ceramic_mtl.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

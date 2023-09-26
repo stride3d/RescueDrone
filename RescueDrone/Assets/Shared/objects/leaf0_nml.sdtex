@@ -1,0 +1,6 @@
+!Texture
+Id: 657d6817-3486-4b7e-9e50-f6fde6e7c9f8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/leaf0_nml.png
+Type: !NormalMapTextureType {}

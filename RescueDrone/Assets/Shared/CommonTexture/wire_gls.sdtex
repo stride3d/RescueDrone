@@ -1,0 +1,7 @@
+!Texture
+Id: b877951a-2594-4dfa-818b-914d01a14d63
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/wire_gls.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,7 @@
+!Texture
+Id: 0a584ffd-f8b1-460d-87b7-2a70643ce9e3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/fabric1_gls.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

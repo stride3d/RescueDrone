@@ -1,0 +1,7 @@
+!Texture
+Id: 7d5f6ddf-7671-4321-86a2-31f43aa4bcb8
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/chrome01_gls.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

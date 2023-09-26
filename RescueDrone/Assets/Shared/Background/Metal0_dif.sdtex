@@ -1,0 +1,8 @@
+!Texture
+Id: 3c9fb23c-3ae7-406a-9c62-42dd0e46000e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/Metal0_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

@@ -1,0 +1,17 @@
+!Skeleton
+Id: b62261d6-f65b-4616-8b6f-77602d7198f4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]Background.FBX
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Nodes:
+    2b83a4a0d5dde6216f7c2fe8b32bbfe2: {Name: RootNode, Depth: 0}
+    22843d813582ff05d1f63d6efe1cd00b: {Name: root_Building, Depth: 1}
+    28ad0648c67d1b24fe68d034dfc24715: {Name: ground_z, Depth: 2}
+    9e4678f063ebea966fa366ccdf19027b: {Name: "オブジェクト079", Depth: 2}
+    82e44aa446af7191e20b98a454f2ab90: {Name: root_house, Depth: 1}
+    7d58fb401831b8fd2cd1f7732cd1f773: {Name: house, Depth: 2}
+    3f9e386097081e7a8e8cc4b31aacbcaa: {Name: antena0, Depth: 2}
+    7f9e7f01802938f2051e7b070b09f32a: {Name: antena1, Depth: 2}
+~SourceHashes:
+    507cdb96bb3641d3168e96af81295e35~../../../RawAssets/sci-fi/Chair/[model]Background.FBX: 5a61da5b5cef53ea3467731ce3ef291b

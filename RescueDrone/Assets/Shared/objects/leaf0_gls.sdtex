@@ -1,0 +1,7 @@
+!Texture
+Id: 2b1a2c86-6156-44a3-aa28-b050249ec8ab
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/leaf0_gls.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

@@ -1,0 +1,7 @@
+!Texture
+Id: c744ffaa-e6bc-4f8c-818e-1da7a5d5e49c
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/vinyl0_gls.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

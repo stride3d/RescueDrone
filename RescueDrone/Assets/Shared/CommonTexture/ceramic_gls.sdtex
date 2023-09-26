@@ -1,0 +1,7 @@
+!Texture
+Id: 121fcd1d-304e-4879-a952-71071b6d8110
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/ceramic_gls.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

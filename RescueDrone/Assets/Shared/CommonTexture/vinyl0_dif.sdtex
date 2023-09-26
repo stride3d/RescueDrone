@@ -1,0 +1,7 @@
+!Texture
+Id: 7aecd80a-6b12-429f-a425-c3f8ce5743e2
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/vinyl0_dif.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

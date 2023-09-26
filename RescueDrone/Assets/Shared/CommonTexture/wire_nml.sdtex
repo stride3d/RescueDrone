@@ -1,0 +1,6 @@
+!Texture
+Id: 631e05f1-53a3-4325-997a-3eb272e43cea
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/wire_nml.jpg
+Type: !NormalMapTextureType {}

@@ -1,0 +1,7 @@
+!Texture
+Id: a7ab5ee0-653c-4742-af39-ce36c2b40a32
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/pattern_metal_gls.jpg
+IsCompressed: false
+Type: !GrayscaleTextureType {}

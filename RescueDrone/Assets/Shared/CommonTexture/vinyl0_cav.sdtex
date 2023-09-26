@@ -1,0 +1,7 @@
+!Texture
+Id: 10ac37f3-8d22-4b81-95d2-ada9de40063a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/CommonTextures/vinyl0_cav.png
+IsCompressed: false
+Type: !GrayscaleTextureType {}

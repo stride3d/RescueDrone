@@ -1,0 +1,7 @@
+!Texture
+Id: 9168c77e-851b-438f-ba8e-08a156d04206
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Robot/guru_meditation.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

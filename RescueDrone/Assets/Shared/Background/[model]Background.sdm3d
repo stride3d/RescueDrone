@@ -1,0 +1,87 @@
+!Model
+Id: a4095d5e-b9eb-4a2a-9c70-d89a74f80334
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: ../../../RawAssets/sci-fi/Chair/[model]Background.FBX
+Skeleton: b62261d6-f65b-4616-8b6f-77602d7198f4:Background/[model]Background Skeleton
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    55c0cd1e30d8d34fa77899d67132be4c:
+        Name: Building_Floor
+        MaterialInstance:
+            Material: efb0ed51-47a9-45be-bafd-f5425fc5624c:Background/Building_Floor
+    627c555cfb041a4a9c5c662c041812d1:
+        Name: Building_Wall
+        MaterialInstance:
+            Material: e1d1e07b-3841-496d-9797-94156e6e8c08:Background/Building_Wall
+    5a41416c73bc1a458b5c5e88ab91f893:
+        Name: Building_Gum
+        MaterialInstance:
+            Material: 73e070a3-fb80-4fdb-88ac-8d3f70ae9a0a:Background/Building_Gum
+    1c5638dcb8af0f4397fa3dcd9c66acfe:
+        Name: Building_Concrete
+        MaterialInstance:
+            Material: d8b05cf4-9bb0-43fc-81ff-b1a62588a776:Background/Building_Concrete
+    7dd7dabc52aa5b4db386efbfc25e82af:
+        Name: Building_Metal
+        MaterialInstance:
+            Material: d3ba22ad-d257-48e8-99ba-c1f3f2c6f50f:Background/Building_Metal
+    8e6ad4a00327024da637b35a857e3cb7:
+        Name: Building_Fence
+        MaterialInstance:
+            Material: 2068cf27-b5ea-4617-b614-6739c1f3abe4:Background/Building_Fence
+    1c5e84d209e447429fa74e74acd22bc2:
+        Name: grass1
+        MaterialInstance:
+            Material: 6de9964d-10b8-4e95-9fb6-80aa4180c487:Background/glass
+    138f51d3236b484184d2bd21a32d538b:
+        Name: glass2
+        MaterialInstance:
+            Material: d9eb4886-a69a-4f58-9d70-ac744527f679:Background/glass_1
+    de701eb44759ef45800912567233f4f8:
+        Name: Glasssilver
+        MaterialInstance:
+            Material: 22c69184-4065-437c-a6f5-f35030537b96:Background/Building_silver
+    133b337ed603de4693a90d4b899b5757:
+        Name: House_cement0
+        MaterialInstance:
+            Material: 941bd9a0-88fd-47b6-a54a-6b508d846770:Background/House_cement0
+    363538812546114a802d984fe83105c0:
+        Name: House_cement1
+        MaterialInstance:
+            Material: a1b22b97-5580-44fe-94c5-525b0390a51c:Background/House_cement1
+    4c46a4be3bf5c848a747c6004bfcc40d:
+        Name: House_wall0
+        MaterialInstance:
+            Material: 2ebcab43-ff15-489c-b371-911262dce1df:Background/House_wall0
+    c373f4bbe1ecb84a8e24f35dc86eb883:
+        Name: House_wall1
+        MaterialInstance:
+            Material: 79323fc4-6033-4235-82df-b23e1b3ffcf8:Background/House_wall1
+    dbf136ea629ebb4290fd2abdd463b886:
+        Name: House_gum
+        MaterialInstance:
+            Material: 1ba0b96e-7d81-4e20-8918-93cfebe5bf19:Background/House_gum
+    220665dd9ecb7443936798b667dab7e8:
+        Name: House_roof
+        MaterialInstance:
+            Material: a702250a-7fd5-4a8c-ad09-3b4ea7abeef8:Background/House_roof
+    2184a608ef2a274e90c40ad9735cdcc3:
+        Name: House_door
+        MaterialInstance:
+            Material: 67d0c571-871b-44a8-89c3-bfc258ff89b5:Background/House_door
+    14e4ed19aa48904384b7fe03b81ba712:
+        Name: House_metal
+        MaterialInstance:
+            Material: 9ea65e94-c588-443e-b42e-4b73b034aeca:Background/House_metal
+    1977c2f0d9057d4c93bb1c75b80f5e8d:
+        Name: House_plastic
+        MaterialInstance:
+            Material: bb5d2387-75b9-456e-becb-5b5e06f0ed79:Background/House_plastic
+    6414e57cd90a184cad1c80ba2d0b7dc8:
+        Name: House_pipe
+        MaterialInstance:
+            Material: 3bc262e2-a910-47c2-aa50-4d76aae316e7:Background/House_pipe
+Modifiers: {}
+~SourceHashes:
+    8f577bcb16e6953eb8605a22b0dfb9b8~../../../RawAssets/sci-fi/Chair/[model]Background.FBX: 5a61da5b5cef53ea3467731ce3ef291b
